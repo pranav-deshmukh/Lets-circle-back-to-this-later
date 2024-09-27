@@ -56,7 +56,7 @@ def getFlipkartDetails(url):
     #         print(thing.text)
             
 
-    print(product_description)
+   
             
     
     
