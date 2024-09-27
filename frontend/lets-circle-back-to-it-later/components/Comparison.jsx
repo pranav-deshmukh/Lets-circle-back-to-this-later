@@ -12,8 +12,8 @@ function Comparision() {
     setSelectedCard(selectedCard === title ? null : title);
   };
   return (
-    <div className="flex justify-center">
-      <div className="w-[40%]">
+    <div className="flex md:flex-row flex-col justify-center">
+      <div className="md:w-[40%]">
         <div className="items-center justify-center gap-y-10 gap-x-4 md:p-10 flex flex-col">
           {Object.entries(filteredData).map(([key, value]) => (
             <div
@@ -28,12 +28,12 @@ function Comparision() {
           ))}
         </div>
       </div>
-      <div className="flex flex-col justify-evenly">
+      <div className=" md:flex hidden flex-col justify-evenly">
         {Object.entries(filteredData).map(([key, value]) => (
             <div
               key={key}
               onClick={() => handleCardClick(key)}
-              className={`p-4 bg-[#9086ea] text-white text-center overflow-y-auto rounded-xl ${
+              className={`p-4 bg-[#8492eb] text-white text-center overflow-y-auto rounded-xl ${
                 selectedCard === key ? "border-2 border-[#090330] " : ""
               }${value == "None" ? "hidden" : "flex"}`}
             >
@@ -41,7 +41,7 @@ function Comparision() {
             </div>
           ))}
       </div>
-      <div className="w-[40%]">
+      <div className="md:w-[40%]">
         <div className="items-center justify-center gap-y-10 gap-x-4 md:p-10 flex flex-col">
           {Object.entries(filteredData).map(([key, value]) => (
             <div
