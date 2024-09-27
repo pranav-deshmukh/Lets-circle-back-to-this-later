@@ -1,2 +1,43 @@
 /venv
 .venv
+
+
+frontend/lets-circle-back-to-it-later/.next/
+frontend/lets-circle-back-to-it-later/node_modules/
+server/node_modules/
+frontend/lets-circle-back-to-it-later/.env
+server/.env
+
+# dependencies
+frontend/lets-circle-back-to-it-later/node_modules
+frontend/lets-circle-back-to-it-later/.pnp
+frontend/lets-circle-back-to-it-later/.pnp.js
+
+# testing
+frontend/lets-circle-back-to-it-later/coverage
+
+# next.js
+frontend/lets-circle-back-to-it-later/.next/
+frontend/lets-circle-back-to-it-later/out/
+
+# production
+frontend/lets-circle-back-to-it-later/build
+
+# misc
+frontend/lets-circle-back-to-it-later/.DS_Store
+frontend/lets-circle-back-to-it-later/*.pem
+
+# debug
+frontend/lets-circle-back-to-it-later/npm-debug.log*
+Client/yarn-debug.log*
+Client/yarn-error.log*
+
+# local env files
+frontend/lets-circle-back-to-it-later/.env*.local
+
+# vercel
+frontend/lets-circle-back-to-it-later/.vercel
+
+# typescript
+Client/*.tsbuildinfo
+Client/next-env.d.ts
