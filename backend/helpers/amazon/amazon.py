@@ -14,6 +14,8 @@ def getAmazonDetails(url):
 
     chrome_option = Options()
     chrome_option.add_argument("--headless")
+    chrome_options.add_argument("--disable-popup-blocking")
+    chrome_options.add_argument("--disable-notifications")
 
 
     driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=chrome_option)
@@ -29,5 +31,6 @@ def getAmazonDetails(url):
         "customer_reviews":customer_reviews,
         "technical_details":technical_details
     }
-    return final
     driver.quit()
+    return final
+    
