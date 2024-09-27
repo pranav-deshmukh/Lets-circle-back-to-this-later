@@ -2,12 +2,15 @@
 import { data } from "@/sample/sampledata";
 import { useState, useEffect } from "react";
 import ReviewParams from "./ReviewParams";
+import { usePathname } from "next/navigation";
 
 const { pros, cons, ...filteredData } = data;
 
 function Comparision() {
   const [selectedCard, setSelectedCard] = useState(null);
   const [isSmallScreen, setIsSmallScreen] = useState(false);
+  const pathname = usePathname();
+  const arr = pathname.split('/')
 
   // Check if the screen is smaller than md (768px)
   useEffect(() => {
@@ -30,14 +33,15 @@ function Comparision() {
   return (
     <div className="flex md:flex-row flex-col justify-center">
       <div className="md:w-[40%]">
+          <p className=" mt-4 text-lg font-bold">Product 1:{arr[2]}</p>
         <div className="items-center justify-center gap-y-10 gap-x-4 md:p-10 flex flex-col">
           {Object.entries(filteredData).map(([key, value]) => (
             <div
-              key={key}
-              onClick={() => handleCardClick(key)}
-              className={`p-4 bg-[#F5F5DC] overflow-y-auto rounded-xl ${
-                selectedCard === key ? "border-2 border-[#090330] " : ""
-              }${value == "None" ? "hidden" : "flex"}`}
+            key={key}
+            onClick={() => handleCardClick(key)}
+            className={`p-4 bg-[#F5F5DC] overflow-y-auto rounded-xl ${
+              selectedCard === key ? "border-2 border-[#090330] " : ""
+            }${value == "None" ? "hidden" : "flex"}`}
             >
               {/* Conditionally pass the title if the screen is smaller than md */}
               <ReviewParams value={value} title={isSmallScreen ? key : undefined} />
@@ -62,6 +66,7 @@ function Comparision() {
       </div>
 
       <div className="md:w-[40%]">
+        <p className=" mt-4 text-lg font-bold">Product 2:{arr[3]}</p>
         <div className="items-center justify-center gap-y-10 gap-x-4 md:p-10 flex flex-col">
           {Object.entries(filteredData).map(([key, value]) => (
             <div
