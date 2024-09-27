@@ -16,7 +16,19 @@ CORS(app)
 
 
 # app.route('/info',method = ['get'])
-def scrape():
+def scrape(url):
+    website1 = None
+    website2 = None
+    if "amazon" in url:
+        website1 = "amazon"
+        website2 = "flipkart"
+    elif "flipkart" in url:
+        website1 = "flipkart"
+        website2 = "amazon"
+    else:
+        website1 = "flipkart"
+        website2 = "amazon"
+
     chrome_option = Options()
     # chrome_option.add_argument("--headless")
     chrome_option.add_argument("--disable-popup-blocking")
