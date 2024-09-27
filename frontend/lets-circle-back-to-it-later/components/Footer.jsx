@@ -9,8 +9,8 @@ import { IoLogoWhatsapp } from "react-icons/io";
 
 function Footer() {
   return (
-    <div className="w-full h-[100px] bg-[#F5F5DC] min-h-[100px] flex flex-col justify-between text-black">
-        <section className="md:text-lg font-bold h-[20px] pt-1">
+    <div className="w-full h-[100px] bg-[#F5F5DC] min-h-[100px] flex flex-col justify-between text-black px-1">
+        <section className="md:text-lg font-bold h-[20px] pt-1 px-2">
           Contact Information
         </section>
       <div className="flex items-center justify-between">
