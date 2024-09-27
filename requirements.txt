@@ -1,5 +1,6 @@
-python -m venv .venv
-.venv/Scripts/Activate.ps1
-pip install requests beautifulsoup4
-pip install Flask
-pip install flask_cors
+# python -m venv .venv
+# .venv/Scripts/Activate.ps1
+requests 
+beautifulsoup4
+Flask
+flask_cors
