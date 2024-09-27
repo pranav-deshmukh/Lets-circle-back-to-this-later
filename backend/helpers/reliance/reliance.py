@@ -8,8 +8,13 @@ def get_reliance_info(url):
     }
     response = requests.get(url, headers=custom_header)
     soup = BeautifulSoup(response.text, 'lxml')
-    reviews = soup.select_one("#reviews")
-    print(reviews)
+    reviews = soup.select_one("div#reviews")
+    all_reviews = reviews.contents[1].contents
+    for review in all_reviews:
+        review_body = review.contents[0].contents
+        for thing in review_body:
+            print(thing.text)
+    
 
 
 if __name__ == '__main__':
