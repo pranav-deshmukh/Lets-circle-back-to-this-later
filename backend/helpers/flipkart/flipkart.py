@@ -17,6 +17,7 @@ def getFlipkartReviews(url):
     response = requests.get(url,headers = headers)
     soup = BeautifulSoup(response.text,'lxml')
     main = soup.select('div#container')
+    print(main)
     
 
 
