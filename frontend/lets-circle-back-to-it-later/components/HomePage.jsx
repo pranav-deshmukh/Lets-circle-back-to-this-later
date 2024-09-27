@@ -9,6 +9,7 @@ const Playfair = Playfair_Display_SC({
   subsets: ["latin"],
 });
 
+
 function HomePage() {
   return (
     <div className="w-full h-[800px] min-h-[300px] flex items-center justify-center flex-col gap-10 ">
