@@ -45,7 +45,6 @@ def getFlipkartReviews(url):
         all_reviews_list.append(review_object)
     driver.quit()
     return all_reviews_list
-    # product_object["reviews"] = all_reviews_list
 
 def getFlipkartDetails(url, pages=3):
 
