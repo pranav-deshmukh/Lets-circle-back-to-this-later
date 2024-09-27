@@ -1,5 +1,6 @@
 import CompareProductSearch from "@/components/CompareProductSearch";
 import FinalReview from "@/components/FinalReview";
+import Footer from "@/components/Footer";
 import ReviewPageNavigation from "@/components/ReviewPageNav";
 
 function ReviewPage() {
@@ -8,6 +9,7 @@ function ReviewPage() {
       <ReviewPageNavigation />
       <CompareProductSearch/>
       <FinalReview/>
+      <Footer/>
     </div>
   );
 }

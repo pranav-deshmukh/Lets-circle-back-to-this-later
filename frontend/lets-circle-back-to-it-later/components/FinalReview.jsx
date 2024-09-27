@@ -1,7 +1,6 @@
 "use client";
 
 import { useState } from "react";
-import Footer from "./Footer";
 import ProsAndCons from "./ProsAndCons";
 import ReviewParams from "./ReviewParams";
 import { data } from "@/sample/sampledata";
@@ -31,7 +30,7 @@ function FinalReview() {
         ))}
       </div>
 
-      <div className="flex md:flex-row flex-col justify-center items-center mt-6">
+      <div className="flex md:flex-row flex-col justify-center items-center mt-6  mb-10">
         <div className="w-[400px] bg-[#F5F5DC] p-2">
           <p className="text-2xl font-semibold">Pros</p>
           {pros.map((pro, idx) => (
@@ -49,7 +48,7 @@ function FinalReview() {
         </div>
       </div>
 
-      <Footer />
+      
     </div>
   );
 }
