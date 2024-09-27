@@ -7,6 +7,8 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support.ui import WebDriverWait
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.support import expected_conditions as EC
+from helpers.amazon.amazon import getAmazonDetails
+from helpers.flipkart.flipkart import getFlipkartDetails
 from bs4 import BeautifulSoup
 import time
 app = Flask(__name__)
@@ -44,6 +46,20 @@ def scrape():
     
     amazonurl = amazon_links[0]
     flipkarturl = flipkart_links[0]
+    amazon = getAmazonDetails(amazonurl)
+    flipkart = getFlipkartDetails(flipkarturl)
+    new_final = {
+        "product-name":flipkart["product-name"],
+        "about":amazon["about"],
+        "reviews":flipkart["reviews"]+amazon["reviews"]
+
+
+
+    }
+    print(new_final)
+    
+   
+
     
     driver.quit()
         

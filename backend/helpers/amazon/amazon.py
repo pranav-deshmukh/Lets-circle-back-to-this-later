@@ -19,7 +19,7 @@ def getAmazonDetails(url):
     
 
     driver.get(url)
-    print(driver.title)
+   
     wait = WebDriverWait(driver, 10)
     technical_details = wait.until(EC.presence_of_element_located((By.ID,"productDetails_feature_div"))).text
     customer_reviews = wait.until(EC.presence_of_element_located((By.ID,"customerReviews"))).text
@@ -32,6 +32,3 @@ def getAmazonDetails(url):
     driver.quit()
     return final
     
-if __name__ == "__main__":
-    url = "https://www.amazon.in/gp/product/B0DFWRZLK5/ref=s9_bw_cg_PopSerie_4b1_w"
-    getAmazonDetails(url)
