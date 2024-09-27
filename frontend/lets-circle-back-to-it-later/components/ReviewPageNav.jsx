@@ -8,7 +8,7 @@ const Robo = Roboto({
 
 function ReviewPageNavigation() {
   return (
-    <div className={`w-full h-[60px] bg-[#F5F5DC] flex items-center text-lg font-semibold text-black fixed ${Robo.className} text-lg text-[#090330]`}>
+    <div className={`w-full h-[60px] bg-[#F5F5DC] flex items-center text-lg font-semibold text-black fixed ${Robo.className} text-lg text-[#090330] border-b-2 border-black`}>
       <div className="w-[10%] ml-4 md:flex hidden">
         <span className="">Reviews.com</span>
       </div>

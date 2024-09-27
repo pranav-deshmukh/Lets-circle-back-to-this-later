@@ -7,10 +7,10 @@ function ReviewParams({ title, value }) {
         value == "None" ? "hidden" : "flex flex-col"
       }`}
     >
-      <div className="flex justify-end">
+      <div className="flex justify-between">
+      <span className="font-semibold text-2xl mb-2">{title}</span>
         <Image src={"/SampleImg.png"} height={150} width={150} alt="sample" />
       </div>
-      <span className="font-bold text-lg mb-2">{title}</span>
       <span>{value}</span>
     </div>
   );
