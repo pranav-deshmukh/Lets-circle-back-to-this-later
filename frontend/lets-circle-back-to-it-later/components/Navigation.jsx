@@ -1,6 +1,6 @@
 function Navigation() {
   return (
-    <div className="w-full h-[60px] bg-[#F5F5DC] flex items-center text-lg font-semibold">
+    <div className="w-full h-[60px] bg-[#F5F5DC] flex items-center text-lg font-semibold text-black fixed">
       <div className="w-[10%] ml-4">
         <span>Reviews.com</span>
       </div>
