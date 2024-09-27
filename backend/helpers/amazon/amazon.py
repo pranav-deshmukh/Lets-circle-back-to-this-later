@@ -44,7 +44,7 @@ def getAmazonDetails(url, pages=0):
     chrome_option.add_argument("--disable-gpu")
     driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=chrome_option)
     driver.get(url)
-    print(driver.title)
+   
     wait = WebDriverWait(driver, 10)
     technical_details = wait.until(EC.presence_of_element_located((By.ID,"feature-bullets"))).text
     product_title = wait.until(EC.presence_of_element_located((By.ID,"productTitle"))).text

@@ -9,7 +9,7 @@ function CompareProductSearch() {
   const [url1, setUrl1] = useState(""); 
   const [url2, setUrl2] = useState(""); 
   const pathname = usePathname();
-  const currProd = pathname.split('/')[1];
+  const currProd = pathname.split('/')[2];
   const router = useRouter(); 
   
   function handleClickReview() {
