@@ -1,11 +1,18 @@
+import { Playfair_Display_SC } from "next/font/google";
+
 import { Button } from "./ui/button";
 import { Input } from "./ui/input";
 import { FaPlus } from "react-icons/fa";
 
+const Playfair = Playfair_Display_SC({
+  weight: "400",
+  subsets: ["latin"],
+});
+
 function HomePage() {
   return (
     <div className="w-full h-[800px] min-h-[300px] flex items-center justify-center flex-col gap-10 ">
-      <section className="text-4xl text-center p-4">
+      <section className={`md:text-6xl text-4xl text-center p-4 ${Playfair.className}`}>
         <span>
           Complete product
           <br /> review analysis,
@@ -14,7 +21,7 @@ function HomePage() {
       </section>
       <section className="flex md:flex-row flex-col items-center max-w-[800px] min-w-[200px] justify-center gap-3">
         <Input
-          className="bg-white text-black min-w-[300px] h-[43px] rounded-xl"
+          className="bg-white text-black min-w-[400px] h-[43px] rounded-xl"
           placeholder="Enter Url"
         />
         <section className="flex gap-2">
