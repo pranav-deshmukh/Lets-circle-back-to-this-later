@@ -1,39 +1,73 @@
-import requests
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.support.ui import WebDriverWait
+from webdriver_manager.chrome import ChromeDriverManager
+from selenium.webdriver.support import expected_conditions as EC
 from bs4 import BeautifulSoup
 
-url = r"https://www.flipkart.com/boat-wave-fury-1-83-hd-display-bluetooth-calling-functional-crown-smartwatch/p/itma0f5091a1aa94?pid=SMWGQHN4RWUTXYMY&lid=LSTSMWGQHN4RWUTXYMYK9SSX1&marketplace=FLIPKART&store=ajy%2Fbuh&srno=b_1_7&otracker=browse&fm=organic&iid=cb054fd7-ca04-4d49-b080-f830ce0b1d27.SMWGQHN4RWUTXYMY.SEARCH&ppt=browse&ppn=browse&ssid=h6hzf9trds0000001727430890688"
 
-def get_flipkart_info(url):
-    """
-    output: object{id:string, title:string, body:string, verified:bool} 
-    id->[initial name of website][review no.] eg r1, r2, r3
-    """
-    custom_header = {
-        'User-Agent' : 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36',
-        'Accept-Language' : 'en-US,en;q=0.9'
-    }
-    print("request sent")
-    response = requests.get(url, headers=custom_header)
-    print("status: ", response.status_code)
-    soup = BeautifulSoup(response.text, 'lxml')
-    container = soup.select_one("div#container")
-    print(container)
-    # all_reviews = container.contains[0].contains[2].contains[0].contains[1].contains[7].contains[5].contains[0].contains[3]
-    # print(all_reviews.text)
-    # final_output = []
-    # for i in range(len(all_reviews)):
-    #     review = all_reviews[i]
-    #     review_body = review.contents[0].contents
-    #     verified = None
-    #     if "Certified" in review_body[0].text:
-    #         verified = True
-    #     else:
-    #         verified = False
-    #     output = {"id":f"r{i+1}", "title":review_body[1].text, "body":review_body[3].text, "verified":verified}
-    #     final_output.append(output)
-    # return final_output
+
+url = "https://www.flipkart.com/apple-iphone-15-blue-128-gb/p/itmbf14ef54f645d?pid=MOBGTAGPAQNVFZZY&lid=LSTMOBGTAGPAQNVFZZYO7HQ2L&marketplace=FLIPKART&q=phone&store=tyy%2F4io&spotlightTagId=BestsellerId_tyy%2F4io&srno=s_1_2&otracker=search&otracker1=search&fm=organic&iid=55e9453a-621c-4e38-bde9-7fdf161f4433.MOBGTAGPAQNVFZZY.SEARCH&ppt=None&ppn=None&ssid=kpmwhv948w0000001727446085278&qH=f7a42fe7211f98ac"
+
+
+def getFlipkartDetails(url):
+    
+    chrome_option = Options()
+    # chrome_option.add_argument("--headless")
+    chrome_option.add_argument("--disable-popup-blocking")
+    chrome_option.add_argument("--disable-notifications")
+    chrome_option.add_argument("--disable-gpu")
+
+    driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=chrome_option)
     
 
+    driver.get(url)
+    
+    wait = WebDriverWait(driver, 10)
+    # container = wait.until(EC.presence_of_element_located((By.ID,"container"))).text
+    # print(container)
+    
 
-if __name__ == '__main__':
-    print(get_flipkart_info(url))
+    html_content = driver.page_source
+    soup = BeautifulSoup(html_content,'lxml')
+    reviews = soup.select_one("div#container")
+    # all_reviews_button = reviews.contents[0].contents[2].contents[0].contents[1].contents[8].contents[6].contents[0].contents[5]
+    # all_reviews_url = all_reviews_button['href']
+    
+   
+
+   
+    
+    
+
+    
+    reviews = soup.select_one("div#container")
+    
+    all_reviews = reviews.contents[0].contents[2].contents[0].contents[1].contents[8].contents[6].contents[0].contents[3].contents
+    product_title = driver.title
+    product_description =  reviews.contents[0].contents[2].contents[0].contents[1].contents[8].contents[3].contents[1:]
+
+    
+    # for review in all_reviews:
+    #     review_body = review.contents[0].contents
+    #     for thing in review_body:
+    #         print(thing.text)
+            
+
+    print(product_description)
+            
+    
+    
+    
+    
+
+    
+   
+    driver.quit()
+   
+    
+getFlipkartDetails(url)
+
+

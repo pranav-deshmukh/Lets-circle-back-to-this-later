@@ -9,16 +9,18 @@ from selenium.webdriver.support import expected_conditions as EC
 
 
 
+
 def getAmazonDetails(url):
 
 
     chrome_option = Options()
     chrome_option.add_argument("--headless")
-    chrome_options.add_argument("--disable-popup-blocking")
-    chrome_options.add_argument("--disable-notifications")
-
+    chrome_option.add_argument("--disable-popup-blocking")
+    chrome_option.add_argument("--disable-notifications")
+    chrome_option.add_argument("--disable-gpu")
 
     driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=chrome_option)
+    
 
     driver.get(url)
     print(driver.title)
@@ -34,3 +36,5 @@ def getAmazonDetails(url):
     driver.quit()
     return final
     
+
+getAmazonDetails(url)

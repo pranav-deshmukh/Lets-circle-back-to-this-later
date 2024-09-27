@@ -5,7 +5,8 @@
       "Battery Life",
       "Display",
       "Build Quality",
-      "Value for Money"
+      "Value for Money",
+      "Durability"
     ],
     "laptop": [
       "Performance",
@@ -13,7 +14,8 @@
       "Display Quality",
       "Build Quality",
       "Keyboard and Touchpad",
-      "Value for Money"
+      "Value for Money",
+      "Durability"
     ],
     "tablet": [
       "Display Quality",
@@ -22,7 +24,8 @@
       "Portability",
       "Stylus Support",
       "Build Quality",
-      "Value for Money"
+      "Value for Money",
+      "Durability"
     ],
     "smartwatche": [
       "Fitness Tracking",
@@ -32,7 +35,8 @@
       "Build Quality",
       "Health Monitoring Features",
       "Customization Options",
-      "Value for Money"
+      "Value for Money",
+      "Durability"
     ],
     "television": [
       "Picture Quality",
@@ -42,7 +46,8 @@
       "Refresh Rate",
       "Connectivity Options",
       "Energy Efficiency",
-      "Value for Money"
+      "Value for Money",
+      "Durability"
     ],
     "gaming console": [
       "Performance",
@@ -53,7 +58,8 @@
       "Controller Quality",
       "Multimedia Features",
       "Exclusive Titles",
-      "Value for Money"
+      "Value for Money",
+      "Durability"
     ],
     "digital camera": [
       "Image Quality",
@@ -64,7 +70,8 @@
       "Video Features",
       "Ergonomics",
       "Battery Life",
-      "Value for Money"
+      "Value for Money",
+      "Durability"
     ],
     "bluetooth speaker": [
       "Sound Quality",
@@ -75,7 +82,8 @@
       "Build Quality",
       "Multi-speaker Pairing",
       "Voice Assistant Integration",
-      "Value for Money"
+      "Value for Money",
+      "Durability"
     ],
     "e-reader": [
       "Display Quality",
@@ -86,7 +94,8 @@
       "File Format Support",
       "Waterproofing",
       "Ecosystem Integration",
-      "Value for Money"
+      "Value for Money",
+      "Durability"
     ],
     "smart home device": [
       "Compatibility",
@@ -97,7 +106,8 @@
       "Reliability",
       "App Quality",
       "Privacy Protections",
-      "Value for Money"
+      "Value for Money",
+      "Durability"
     ],
     "refrigerator": [
       "Capacity",
@@ -108,7 +118,8 @@
       "Smart Features",
       "Build Quality",
       "Water/Ice Dispenser",
-      "Value for Money"
+      "Value for Money",
+      "Durability"
     ],
     "washing machine": [
       "Capacity",
@@ -119,7 +130,8 @@
       "Cycle Options",
       "Water Consumption",
       "Smart Features",
-      "Value for Money"
+      "Value for Money",
+      "Durability"
     ],
     "dishwasher": [
       "Cleaning Performance",
@@ -130,7 +142,8 @@
       "Drying Performance",
       "Water Consumption",
       "Build Quality",
-      "Value for Money"
+      "Value for Money",
+      "Durability"
     ],
     "microwave oven": [
       "Cooking Power",
@@ -141,7 +154,8 @@
       "Noise Level",
       "Build Quality",
       "Safety Features",
-      "Value for Money"
+      "Value for Money",
+      "Durability"
     ],
     "air conditioner": [
       "Cooling Capacity",
@@ -152,6 +166,7 @@
       "Installation Requirements",
       "Humidity Control",
       "Maintenance Ease",
-      "Value for Money"
+      "Value for Money",
+      "Durability"
     ]
   }
