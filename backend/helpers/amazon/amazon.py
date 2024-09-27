@@ -6,10 +6,6 @@ from selenium.webdriver.support.ui import WebDriverWait
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.support import expected_conditions as EC
 
-
-
-
-
 def getAmazonDetails(url):
 
 
@@ -36,5 +32,6 @@ def getAmazonDetails(url):
     driver.quit()
     return final
     
-
-getAmazonDetails(url)
+if __name__ == "__main__":
+    url = "https://www.amazon.in/gp/product/B0DFWRZLK5/ref=s9_bw_cg_PopSerie_4b1_w"
+    getAmazonDetails(url)

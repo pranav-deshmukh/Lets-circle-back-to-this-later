@@ -1,13 +1,15 @@
 import CompareProductSearch from "@/components/CompareProductSearch";
 import FinalReview from "@/components/FinalReview";
+import Footer from "@/components/Footer";
 import ReviewPageNavigation from "@/components/ReviewPageNav";
 
 function ReviewPage() {
   return (
-    <div>
+    <div className="bg-[#efeded]">
       <ReviewPageNavigation />
       <CompareProductSearch/>
       <FinalReview/>
+      <Footer/>
     </div>
   );
 }
