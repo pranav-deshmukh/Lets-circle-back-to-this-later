@@ -5,7 +5,7 @@ const Robo = Roboto({
   subsets: ["latin"],
 });
 
-function Navigation() {
+function ReviewPageNavigation() {
   return (
     <div className={`w-full h-[60px] bg-[#F5F5DC] flex items-center text-lg font-semibold text-black fixed ${Robo.className} text-lg text-[#090330]`}>
       <div className="w-[10%] ml-4">
@@ -20,4 +20,4 @@ function Navigation() {
   );
 }
 
-export default Navigation;
+export default ReviewPageNavigation;
