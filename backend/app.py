@@ -6,7 +6,9 @@ CORS(app)
 
 app.route('/info',method = ['get'])
 def scrape(url):
-    print("hello world")
+    #get the product name from the url
+    
+    print('hi')
 
 
 
