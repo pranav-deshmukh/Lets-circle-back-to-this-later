@@ -1,33 +1,36 @@
-import requests
-from bs4 import BeautifulSoup
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.support.ui import WebDriverWait
+from webdriver_manager.chrome import ChromeDriverManager
+from selenium.webdriver.support import expected_conditions as EC
 
-def get_amazon_info(url):
-    """Output: HTML content of the Amazon product reviews page."""
-    custom_header = {
-        'User-Agent': 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36',
-        'Accept-Language': 'en-US,en;q=0.9',
-        "origin": "https://www.amazon.in",
-        "referer": "https://www.amazon.in/"
+
+
+
+def getAmazonDetails(url):
+
+
+    chrome_option = Options()
+    chrome_option.add_argument("--headless")
+    chrome_options.add_argument("--disable-popup-blocking")
+    chrome_options.add_argument("--disable-notifications")
+
+
+    driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=chrome_option)
+
+    driver.get(url)
+    print(driver.title)
+    wait = WebDriverWait(driver, 10)
+    technical_details = wait.until(EC.presence_of_element_located((By.ID,"productDetails_feature_div"))).text
+    customer_reviews = wait.until(EC.presence_of_element_located((By.ID,"customerReviews"))).text
+    product_title = wait.until(EC.presence_of_element_located((By.ID,"productTitle"))).text
+    final = {
+        "product_title":product_title,
+        "customer_reviews":customer_reviews,
+        "technical_details":technical_details
     }
+    driver.quit()
+    return final
     
-    response = requests.get(url, headers=custom_header)
-    
-    if response.status_code != 200:
-        print(f"Failed to retrieve the page. Status code: {response.status_code}")
-        return None
-    
-    # Print the entire HTML content
-    html_content = response.text
-    soup = BeautifulSoup(response.text, 'lxml')
-    print(html_content)
-    
-    return html_content
-
-if __name__ == '__main__':
-    amazon_url = "https://www.amazon.com/product-reviews/B0BP3ZK9K9"
-    html = get_amazon_info(amazon_url)
-
-
-"""
-https://www.amazon.in/IFB-DIVA-AQUA-GBS-6010/dp/B0CB1FS1WR/?_encoding=UTF8&ref_=pd_hp_d_atf_dealz_m2
-"""
