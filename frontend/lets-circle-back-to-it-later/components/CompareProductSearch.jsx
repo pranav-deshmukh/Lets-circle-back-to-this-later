@@ -2,7 +2,7 @@ import { Input } from "./ui/input";
 
 function CompareProductSearch() {
   return (
-    <div className="w-full md:h-[200px] h-[430px] flex md:flex-row flex-col md:items-end items-center justify-evenly gap-10 border-b-[2px] border-black">
+    <div className="w-full md:h-[200px] h-[430px] flex md:flex-row flex-col md:items-end items-center justify-evenly gap-10 border-b-[2px] border-black bg-[#94a8e1]">
       <div className="md:pb-6">
         <label htmlFor="Search Product" className="text-2xl">Search a New Product</label>
         <Input
