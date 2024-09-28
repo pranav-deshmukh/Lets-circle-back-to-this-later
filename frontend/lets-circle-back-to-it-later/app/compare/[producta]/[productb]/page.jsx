@@ -6,7 +6,7 @@ import ReviewPageNavigation from "@/components/ReviewPageNav";
 
 function Compare() {
     return ( 
-        <div className="bg-[#efeded]">
+        <div className="bg-[#ffffff]">
             <ReviewPageNavigation/>
             <CompareProductSearch/>
             <Comparision/>
