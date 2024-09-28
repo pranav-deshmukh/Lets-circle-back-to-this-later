@@ -1,19 +1,40 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import ProsAndCons from "./ProsAndCons";
 import ReviewParams from "./ReviewParams";
 import { data } from "@/sample/sampledata";
+import axios from "axios";
 
 const { pros, cons, ...filteredData } = data;
 
-function FinalReview({url}) {
+function FinalReview() {
   const [selectedCard, setSelectedCard] = useState(null);
 
   const handleCardClick = (title) => {
     setSelectedCard(selectedCard === title ? null : title);
-    console.log(url)
   };
+
+  useEffect(() => {
+    // Retrieve url1 and url2 from localStorage
+    const url1 = localStorage.getItem("url1");
+    const url2 = localStorage.getItem("url2");
+
+    // Post request with url1 and url2 from localStorage
+    if (url1 && url2) {
+      axios
+        .post('/api/your-endpoint', {
+          url1: url1,
+          url2: url2,
+        })
+        .then((response) => {
+          console.log(response.data); // Handle the response data
+        })
+        .catch((error) => {
+          console.error(error); // Handle the error
+        });
+    }
+  }, []); // Empty dependency array ensures this effect runs once on component mount
 
   return (
     <div className="w-full h-full flex flex-col">
@@ -23,15 +44,15 @@ function FinalReview({url}) {
             key={key}
             onClick={() => handleCardClick(key)}
             className={`p-4 bg-[#F5F5DC] overflow-y-auto rounded-xl ${
-              selectedCard === key ? "border-2 border-[#090330] " : ""
-            }${value == "None" ? "hidden" : "flex"}`}
+              selectedCard === key ? "border-2 border-[#090330]" : ""
+            } ${value === "None" ? "hidden" : "flex"}`}
           >
             <ReviewParams title={key} value={value} />
           </div>
         ))}
       </div>
 
-      <div className="flex md:flex-row flex-col justify-center items-center mt-6  mb-10">
+      <div className="flex md:flex-row flex-col justify-center items-center mt-6 mb-10">
         <div className="w-[400px] bg-[#F5F5DC] p-2">
           <p className="text-2xl font-semibold">Pros</p>
           {pros.map((pro, idx) => (
@@ -48,8 +69,6 @@ function FinalReview({url}) {
           ))}
         </div>
       </div>
-
-      
     </div>
   );
 }
