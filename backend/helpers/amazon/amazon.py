@@ -54,7 +54,7 @@ def getAmazonDetails(url, pages=0):
     reviews_url = "https://www.amazon.in"+reviews_element.parent.get("href")
     print(reviews_url)
     product_object = {
-        "product_name":product_title,
+        "product-name":product_title,
         "about":technical_details,
     }
     front_reviews = soup.find_all(class_="a-expander-content reviewText review-text-content a-expander-partial-collapse-content")

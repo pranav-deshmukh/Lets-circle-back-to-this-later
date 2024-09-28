@@ -1,6 +1,6 @@
 import json
 import os 
-from makeRequest import makeRequest
+from helpers.LLM.makeRequest import makeRequest
 
 def classify(product: dict):
     """

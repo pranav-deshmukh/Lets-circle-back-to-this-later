@@ -1,9 +1,13 @@
 import os
 from groq import Groq
+from dotenv import load_dotenv
 
 def makeRequest(systemMsg, userMsg, models):
+    load_dotenv()
+    variable_name = 'GROQ_KEY'
+    variable_value = os.getenv(variable_name)
     client = Groq(
-        api_key=os.environ.get("GROQ_KEY"),
+        api_key=variable_value,
     )
     chat_completion = None
     for model in models:
