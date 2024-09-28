@@ -107,10 +107,19 @@ def jsonme():
     return json.dumps(thing)
 
 @app.route('/review',methods = ['POST'])
+def review():
+    data = request.json
+    if not data or 'url1' not in data:
+        return json.dumps({"error": "URL is required in the JSON payload"}), 400
+    url1 = data['url1']
+    response1 = scrape(url1)
+    return json.dumps(response1)
+    
+@app.route('/compare',methods = ['POST'])
 def compare():
     data = request.json
     if not data or 'url1' not in data or 'url2' not in data:
-        return jsonify({"error": "Both URLs are required in the JSON payload"}), 400
+        return json.dumps({"error": "Both URLs are required in the JSON payload"}), 400
     url1 = data['url1']
     url2 = data['url2']
     response1 = scrape(url1)
@@ -119,7 +128,6 @@ def compare():
     response2 = scrape(url2)
     print(response2)
     print("here202")
-    # return jsonify([response1, response2])
     return json.dumps([response1, response2])
 
           
