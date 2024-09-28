@@ -14,6 +14,7 @@ function CompareProductSearch() {
   
   function handleClickReview() {
     if (url1) {
+      //either use a state management lib or pass props from parent that will be used to store the urls, they can't be passed as url params. Then we will access the urls using these props in the Comparison component to fetch the data.
       router.push(`/review/${url1}`); 
       console.log(pathname)
     }
