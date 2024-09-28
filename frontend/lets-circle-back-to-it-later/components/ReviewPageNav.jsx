@@ -13,9 +13,9 @@ function ReviewPageNavigation() {
         <span className="">Reviews.com</span>
       </div>
       <div className="w-[50%] flex justify-center md:gap-10 gap-4">
-        <span>Home</span>
+        {/* <span>Home</span>
         <span>About</span>
-        <span>Contact</span>
+        <span>Contact</span> */}
       </div>
       <div className="w-[30%] md:flex justify-center items-center hidden">
 
