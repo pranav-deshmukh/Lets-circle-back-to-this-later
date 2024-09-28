@@ -7,11 +7,12 @@ import { data } from "@/sample/sampledata";
 
 const { pros, cons, ...filteredData } = data;
 
-function FinalReview() {
+function FinalReview({url}) {
   const [selectedCard, setSelectedCard] = useState(null);
 
   const handleCardClick = (title) => {
     setSelectedCard(selectedCard === title ? null : title);
+    console.log(url)
   };
 
   return (
