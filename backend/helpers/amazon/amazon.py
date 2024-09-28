@@ -38,7 +38,7 @@ def getAmazonReviews(url):
 
 def getAmazonDetails(url, pages=0):
     chrome_option = Options()
-    # chrome_option.add_argument("--headless")
+    chrome_option.add_argument("--headless")
     chrome_option.add_argument("--disable-popup-blocking")
     chrome_option.add_argument("--disable-notifications")
     chrome_option.add_argument("--disable-gpu")

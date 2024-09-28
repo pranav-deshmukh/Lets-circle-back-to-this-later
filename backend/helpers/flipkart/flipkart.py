@@ -15,6 +15,7 @@ url = r"https://www.flipkart.com/fastrack-optimus-pro-1-43-amoled-display-aod-46
 
 def getFlipkartReviews(url):
     chrome_option = Options()
+    chrome_option.add_argument("--headless")
     chrome_option.add_argument("--disable-popup-blocking")
     chrome_option.add_argument("--disable-notifications")
     chrome_option.add_argument("--disable-gpu")
