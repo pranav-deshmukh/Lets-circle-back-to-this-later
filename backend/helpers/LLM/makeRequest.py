@@ -3,14 +3,16 @@ from groq import Groq
 from dotenv import load_dotenv
 
 def makeRequest(systemMsg, userMsg, models):
+    
     load_dotenv()
-    variable_name = 'GROQ_KEY'
+    variable_name = 'GROQ_KEY2'
     variable_value = os.getenv(variable_name)
     client = Groq(
         api_key=variable_value,
     )
     chat_completion = None
     for model in models:
+            print(f"model: {model}")
             try:
                 chat_completion = client.chat.completions.create(
                     messages=[{"role": "system", "content": systemMsg}, {"role": "user", "content": userMsg}],
@@ -20,7 +22,7 @@ def makeRequest(systemMsg, userMsg, models):
             except:
                  continue
             break
-        
+    print("here79")
     final = None
     try: 
         final = chat_completion.choices[0].message.content

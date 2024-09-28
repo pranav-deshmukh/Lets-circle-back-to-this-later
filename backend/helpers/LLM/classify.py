@@ -13,7 +13,7 @@ def classify(product: dict):
     models = ["gemma2-9b-it","gemma-7b-it"]
     category = json.loads(makeRequest(SysPrompt, userMsg, models))
     try:
-        return category["category"]
+        return category["category"].rstrip("s")
     except:
         return None
 

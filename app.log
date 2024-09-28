@@ -1,0 +1,846 @@
+2024-09-28 10:05:11,643 - INFO - Starting the application...
+2024-09-28 10:05:11,644 - INFO - ====== WebDriver manager ======
+2024-09-28 10:05:14,281 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 10:05:14,459 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 10:05:14,572 - INFO - Driver [C:\Users\omaan\.wdm\drivers\chromedriver\win64\129.0.6668.70\chromedriver-win32/chromedriver.exe] found in cache
+2024-09-28 10:05:31,259 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-28 10:05:32,608 - INFO - ====== WebDriver manager ======
+2024-09-28 10:05:34,996 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 10:05:35,100 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 10:05:35,205 - INFO - Driver [C:\Users\omaan\.wdm\drivers\chromedriver\win64\129.0.6668.70\chromedriver-win32/chromedriver.exe] found in cache
+2024-09-28 10:05:47,358 - INFO - ====== WebDriver manager ======
+2024-09-28 10:05:49,566 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 10:05:49,676 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 10:05:49,773 - INFO - Driver [C:\Users\omaan\.wdm\drivers\chromedriver\win64\129.0.6668.70\chromedriver-win32/chromedriver.exe] found in cache
+2024-09-28 10:05:57,691 - INFO - ====== WebDriver manager ======
+2024-09-28 10:05:59,907 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 10:06:00,002 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 10:06:00,114 - INFO - Driver [C:\Users\omaan\.wdm\drivers\chromedriver\win64\129.0.6668.70\chromedriver-win32/chromedriver.exe] found in cache
+2024-09-28 10:06:10,355 - INFO - ====== WebDriver manager ======
+2024-09-28 10:06:12,605 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 10:06:12,700 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 10:06:12,790 - INFO - Driver [C:\Users\omaan\.wdm\drivers\chromedriver\win64\129.0.6668.70\chromedriver-win32/chromedriver.exe] found in cache
+2024-09-28 10:06:23,049 - INFO - ====== WebDriver manager ======
+2024-09-28 10:06:25,669 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 10:06:25,786 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 10:06:25,892 - INFO - Driver [C:\Users\omaan\.wdm\drivers\chromedriver\win64\129.0.6668.70\chromedriver-win32/chromedriver.exe] found in cache
+2024-09-28 10:06:43,601 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-28 10:06:46,445 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-28 10:06:50,488 - INFO - {
+   "Performance": 
+"Customers have a positive opinion about the Nothing 2A's performance. Many reviewers praise the smooth and responsive user experience, handling multitasking well, and providing a solid gaming experience with minimal lag. Although a few users mention some occasional lag and slower app loading times, the overall sentiment leans towards a satisfying performance.",
+
+   "Camera Quality": 
+"Reviews about the Nothing 2A's camera quality are mixed. While some users praise the camera's performance, capturing clear and vibrant photos, others express disappointment, citing inconsistent image quality, saturated colors, and struggles with edge detection in portrait mode. However, a software update is expected to improve camera performance.",
+
+   "Battery Life": 
+"Most users are satisfied with the Nothing 2A's battery life, citing long-lasting battery life that easily lasts for two days with moderate usage. Fast charging is also a plus point for many users.",
+
+   "Display": 
+"The display of the Nothing 2A receives widespread acclaim. Reviewers praise the bright, vibrant, and responsive screen, making it excellent for media consumption.",
+
+   "Build Quality": 
+"There are mixed opinions about the Nothing 2A's build quality. While some users praise the sturdy and premium feel, others are disappointed by the plastic build and lack of a charger in the box.",
+
+   "Value for Money": 
+"Overall, customers believe the Nothing 2A offers great value for money, citing its smooth performance, decent camera, excellent display, and long battery life at an affordable price point.",
+
+   "Durability": 
+"There is limited feedback about the Nothing 2A's durability, but some users praise the phone's sturdy build and premium feel, suggesting it can withstand daily usage.",
+
+   "pros": [
+      "Smooth and responsive performance",
+      "Decent camera performance",
+      "Excellent display",
+      "Long-lasting battery life",
+      "Great value for money",
+      "Unique design",
+      "Clean and minimalistic UI"
+   ],
+
+   "cons": [
+      "Camera struggles in low-light conditions",
+      "No charger in the box",
+      "Some users experience occasional lag",
+      "Plastic build quality",
+      "No UFS 3.0 storage"
+   ]
+}
+2024-09-28 10:06:50,544 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.17.211.214:8000
+2024-09-28 10:06:50,544 - INFO - [33mPress CTRL+C to quit[0m
+2024-09-28 10:09:33,850 - INFO - Starting the application...
+2024-09-28 10:09:33,850 - INFO - ====== WebDriver manager ======
+2024-09-28 10:09:36,053 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 10:09:36,180 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 10:09:36,294 - INFO - Driver [C:\Users\omaan\.wdm\drivers\chromedriver\win64\129.0.6668.70\chromedriver-win32/chromedriver.exe] found in cache
+2024-09-28 10:09:50,300 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-28 10:09:50,305 - INFO - ====== WebDriver manager ======
+2024-09-28 10:09:52,510 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 10:09:52,614 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 10:09:52,708 - INFO - Driver [C:\Users\omaan\.wdm\drivers\chromedriver\win64\129.0.6668.70\chromedriver-win32/chromedriver.exe] found in cache
+2024-09-28 10:10:07,964 - INFO - ====== WebDriver manager ======
+2024-09-28 10:10:10,226 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 10:10:10,319 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 10:10:10,429 - INFO - Driver [C:\Users\omaan\.wdm\drivers\chromedriver\win64\129.0.6668.70\chromedriver-win32/chromedriver.exe] found in cache
+2024-09-28 10:10:18,027 - INFO - ====== WebDriver manager ======
+2024-09-28 10:10:20,277 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 10:10:20,373 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 10:10:20,484 - INFO - Driver [C:\Users\omaan\.wdm\drivers\chromedriver\win64\129.0.6668.70\chromedriver-win32/chromedriver.exe] found in cache
+2024-09-28 10:10:30,734 - INFO - ====== WebDriver manager ======
+2024-09-28 10:10:32,879 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 10:10:33,058 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 10:10:33,170 - INFO - Driver [C:\Users\omaan\.wdm\drivers\chromedriver\win64\129.0.6668.70\chromedriver-win32/chromedriver.exe] found in cache
+2024-09-28 10:10:43,252 - INFO - ====== WebDriver manager ======
+2024-09-28 10:10:45,319 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 10:10:45,422 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 10:10:45,524 - INFO - Driver [C:\Users\omaan\.wdm\drivers\chromedriver\win64\129.0.6668.70\chromedriver-win32/chromedriver.exe] found in cache
+2024-09-28 10:11:00,496 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-28 10:11:03,040 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-28 10:11:07,110 - INFO - {
+   "Performance":"The majority of customers are satisfied with the phone's performance, stating that it is smooth, fast, and handles multitasking well. Some users appreciate the 120Hz refresh rate, while others note that it can cause the phone to heat up. However, the overall consensus is that the phone performs well, making it suitable for gaming and daily use.",
+   "Camera Quality":"Opinions about the camera quality are mixed. Some users find it to be above average, capturing clear and vibrant photos, while others are disappointed with the results, particularly in low-light conditions. The ultra-wide camera is a notable feature, but some users feel that it could be improved.",
+   "Battery Life":"The battery life of the phone receives widespread praise, with many users reporting that it lasts for two days on moderate use. Fast charging is also a welcome feature, although some users are disappointed that a charger is not included in the box.",
+   "Display":"The display is a strong point of the phone, with users praising its brightness, vibrancy, and responsiveness. The 120Hz refresh rate is a notable feature, although some users note that it can cause the phone to heat up.",
+   "Build Quality":"Some users are disappointed with the build quality, noting that it is mostly plastic and feels less premium than expected. However, others appreciate the unique design and feel of the phone, stating that it looks and feels premium.",
+   "Value for Money":"The majority of users agree that the phone offers excellent value for money, considering its performance, camera quality, and features. The price point is seen as competitive, making it an attractive option for those looking for a mid-range smartphone.",
+   "Durability":"There is limited feedback on the durability of the phone, but most users are satisfied with its build quality and do not report any major issues.",
+   "pros":["Smooth performance", "Excellent value for money", "Long-lasting battery life", "Bright and vibrant display", "Unique design", "Fast charging", "Clean and minimalist UI"],
+   "cons":["Camera quality could be improved", "No charger included in the box", "Build quality is mostly plastic", "Heating issues with 120Hz refresh rate", "Limited availability of accessories"]
+}
+2024-09-28 10:11:07,126 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.17.211.214:8000
+2024-09-28 10:11:07,126 - INFO - [33mPress CTRL+C to quit[0m
+2024-09-28 10:14:42,896 - INFO - Starting the application...
+2024-09-28 10:14:42,896 - INFO - ====== WebDriver manager ======
+2024-09-28 10:14:45,154 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 10:14:45,271 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 10:14:45,421 - INFO - Driver [C:\Users\omaan\.wdm\drivers\chromedriver\win64\129.0.6668.70\chromedriver-win32/chromedriver.exe] found in cache
+2024-09-28 10:14:59,849 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-28 10:14:59,864 - INFO - ====== WebDriver manager ======
+2024-09-28 10:15:02,227 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 10:15:02,334 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 10:15:02,445 - INFO - Driver [C:\Users\omaan\.wdm\drivers\chromedriver\win64\129.0.6668.70\chromedriver-win32/chromedriver.exe] found in cache
+2024-09-28 10:15:19,766 - INFO - ====== WebDriver manager ======
+2024-09-28 10:15:22,076 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 10:15:22,179 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 10:15:22,285 - INFO - Driver [C:\Users\omaan\.wdm\drivers\chromedriver\win64\129.0.6668.70\chromedriver-win32/chromedriver.exe] found in cache
+2024-09-28 10:15:30,440 - INFO - ====== WebDriver manager ======
+2024-09-28 10:15:32,695 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 10:15:32,798 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 10:15:32,891 - INFO - Driver [C:\Users\omaan\.wdm\drivers\chromedriver\win64\129.0.6668.70\chromedriver-win32/chromedriver.exe] found in cache
+2024-09-28 10:15:43,172 - INFO - ====== WebDriver manager ======
+2024-09-28 10:15:45,454 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 10:15:45,548 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 10:15:45,657 - INFO - Driver [C:\Users\omaan\.wdm\drivers\chromedriver\win64\129.0.6668.70\chromedriver-win32/chromedriver.exe] found in cache
+2024-09-28 10:16:00,984 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-28 10:16:02,892 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-28 10:16:06,951 - INFO - {
+   "Performance": "The majority of customers are satisfied with the phone's performance, describing it as smooth, fast, and responsive. It handles multitasking well and is suitable for gaming and heavy usage. However, some users mentioned that the phone can be slow to open apps and load occasionally.",
+   
+   "Camera Quality": "Customers have mixed opinions about the camera quality. While some praise its performance in well-lit conditions, others have noted issues with low-light photography and inconsistent image quality. Despite this, many users consider it to be good value for the price.",
+   
+   "Battery Life": "Battery life is a strong point for this phone, with many customers reporting long-lasting battery life, even with heavy usage. The fast charging feature is also a major plus.",
+   
+   "Display": "The display is widely praised for its brightness, vibrancy, and overall quality. It is suitable for media consumption and provides an excellent viewing experience.",
+   
+   "Build Quality": "There are mixed opinions about the build quality, with some customers describing it as sturdy and premium, while others have concerns about the durability of the phone's materials.",
+   
+   "Value for Money": "The majority of customers consider the phone to be good value for the price, offering a unique design, solid performance, and impressive features at an affordable cost.",
+   
+   "Durability": "There are some concerns about the durability of the phone's materials, but overall, customers are satisfied with the phone's build quality and do not report any major issues with durability.",
+   
+   "pros": [
+      "Unique design",
+      "Smooth and responsive performance",
+      "Long-lasting battery life",
+      "Excellent display quality",
+      "Good value for money",
+      "Fast charging"
+   ],
+   
+   "cons": [
+      "Camera quality can be inconsistent",
+      "Some concerns about build quality and durability",
+      "No charger included",
+      "Minor issues with UI stability"
+   ]
+}
+2024-09-28 10:16:06,969 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.17.211.214:8000
+2024-09-28 10:16:06,969 - INFO - [33mPress CTRL+C to quit[0m
+2024-09-28 10:22:48,313 - INFO - Starting the application...
+2024-09-28 10:22:48,313 - INFO - ====== WebDriver manager ======
+2024-09-28 10:22:50,565 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 10:22:50,696 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 10:22:50,812 - INFO - Driver [C:\Users\omaan\.wdm\drivers\chromedriver\win64\129.0.6668.70\chromedriver-win32/chromedriver.exe] found in cache
+2024-09-28 10:23:07,061 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-28 10:23:07,072 - INFO - ====== WebDriver manager ======
+2024-09-28 10:23:09,369 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 10:23:09,464 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 10:23:09,582 - INFO - Driver [C:\Users\omaan\.wdm\drivers\chromedriver\win64\129.0.6668.70\chromedriver-win32/chromedriver.exe] found in cache
+2024-09-28 10:23:24,416 - INFO - ====== WebDriver manager ======
+2024-09-28 10:23:26,695 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 10:23:26,791 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 10:23:26,902 - INFO - Driver [C:\Users\omaan\.wdm\drivers\chromedriver\win64\129.0.6668.70\chromedriver-win32/chromedriver.exe] found in cache
+2024-09-28 10:23:34,697 - INFO - ====== WebDriver manager ======
+2024-09-28 10:23:36,905 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 10:23:37,005 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 10:23:37,104 - INFO - Driver [C:\Users\omaan\.wdm\drivers\chromedriver\win64\129.0.6668.70\chromedriver-win32/chromedriver.exe] found in cache
+2024-09-28 10:23:47,393 - INFO - ====== WebDriver manager ======
+2024-09-28 10:23:49,945 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 10:23:50,049 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 10:23:50,156 - INFO - Driver [C:\Users\omaan\.wdm\drivers\chromedriver\win64\129.0.6668.70\chromedriver-win32/chromedriver.exe] found in cache
+2024-09-28 10:24:05,455 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-28 10:24:07,772 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-28 10:24:11,861 - INFO - {
+   "Performance": "The majority of reviews indicate that the phone's performance is smooth and responsive, handling multitasking well. While some users note that the phone takes time to open and load apps, the overall sentiment is positive.",
+   "Camera Quality": "Opinions on the camera quality are mixed. Some reviewers praise the camera's performance, noting that it produces clear and vibrant photos, while others express disappointment, stating that the image quality is not consistent and that colors are often saturated.",
+   "Battery Life": "The general consensus is that the phone's battery life is good, with many reviewers reporting that it lasts for around two days with moderate use. Some users, however, express disappointment with the battery life, stating that it is not good.",
+   "Display": "The majority of reviewers praise the phone's display, describing it as bright, vibrant, and excellent for media consumption.",
+   "Build Quality": "Opinions on the build quality are mixed. Some reviewers praise the phone's sturdy and premium feel, while others express disappointment, stating that the build quality is not good.",
+   "Value for Money": "The majority of reviewers agree that the phone offers good value for money, with many praising its unique design, solid performance, and clean user interface.",
+   "Durability": "There is limited information available on the phone's durability, but some reviewers mention that the phone feels sturdy and premium.",
+   "pros": [
+      "Unique design",
+      "Solid performance",
+      "Clean user interface",
+      "Good battery life",
+      "Good display",
+      "Fast charging",
+      "Decent camera performance",
+      "Sturdy build quality"
+   ],
+   "cons": [
+      "Camera quality issues",
+      "No charger included",
+      "Some users experience lag",
+      "Battery life could be better",
+      "Build quality could be improved",
+      "No UFS 3.0 storage",
+      "Pre-applied screen protector is fragile"
+   ]
+}
+2024-09-28 10:24:11,881 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.17.211.214:8000
+2024-09-28 10:24:11,881 - INFO - [33mPress CTRL+C to quit[0m
+2024-09-28 10:26:49,835 - INFO - Starting the application...
+2024-09-28 10:26:49,835 - INFO - ====== WebDriver manager ======
+2024-09-28 10:26:52,134 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 10:26:52,234 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 10:26:52,334 - INFO - Driver [C:\Users\omaan\.wdm\drivers\chromedriver\win64\129.0.6668.70\chromedriver-win32/chromedriver.exe] found in cache
+2024-09-28 10:27:06,785 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-28 10:27:06,785 - INFO - ====== WebDriver manager ======
+2024-09-28 10:27:08,984 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 10:27:09,085 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 10:27:09,184 - INFO - Driver [C:\Users\omaan\.wdm\drivers\chromedriver\win64\129.0.6668.70\chromedriver-win32/chromedriver.exe] found in cache
+2024-09-28 10:27:26,684 - INFO - ====== WebDriver manager ======
+2024-09-28 10:27:28,982 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 10:27:29,083 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 10:27:29,182 - INFO - Driver [C:\Users\omaan\.wdm\drivers\chromedriver\win64\129.0.6668.70\chromedriver-win32/chromedriver.exe] found in cache
+2024-09-28 10:27:36,813 - INFO - ====== WebDriver manager ======
+2024-09-28 10:27:39,059 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 10:27:39,160 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 10:27:39,264 - INFO - Driver [C:\Users\omaan\.wdm\drivers\chromedriver\win64\129.0.6668.70\chromedriver-win32/chromedriver.exe] found in cache
+2024-09-28 10:27:49,663 - INFO - ====== WebDriver manager ======
+2024-09-28 10:27:52,060 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 10:27:52,162 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 10:27:52,281 - INFO - Driver [C:\Users\omaan\.wdm\drivers\chromedriver\win64\129.0.6668.70\chromedriver-win32/chromedriver.exe] found in cache
+2024-09-28 10:28:12,137 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-28 10:28:16,313 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-28 10:28:20,946 - INFO - {
+   "Performance": "The performance of the phone is generally considered smooth and responsive. Many reviewers have praised its ability to handle multitasking well and its fast processing speed. However, some users have noted that the phone can struggle with heavy gaming, and there may be occasional lag when opening apps or switching between them. Overall, the phone's performance is suitable for everyday use and casual gaming, but may not be ideal for intense gaming sessions.",
+   "Camera Quality": "Reviews on the camera quality are mixed. Some users have praised the camera, stating that it takes clear and vibrant photos, while others have noted that the image quality is not consistent, with saturated colors and poor edge detection. The camera performance is average, but it excels in well-lit conditions. Low-light photography is where the camera underperforms.",
+   "Battery Life": "The battery life is a strong point of the phone, with many reviewers praising its long-lasting battery and fast charging capabilities. Most users have reported that the battery lasts for two days with average use, and some have even mentioned that it can last for up to three days if used carefully.",
+   "Display": "The display on the phone has received widespread praise for its brightness and vibrancy, making it an excellent choice for media consumption. The responsive screen and intuitive fingerprint sensor have also been well-received by reviewers.",
+   "Build Quality": "The build quality of the phone is sturdy and premium, with a transparent design that showcases the internal components. Reviewers have praised the phone's weight distribution and feel, stating that it does not feel heavy or bulky.",
+   "Value for Money": "Many reviewers have noted that the phone offers great value for its price, considering its premium design, smooth performance, and feature-packed software. However, some users have noted that the phone's limited availability of storage options and lack of a charger may be a drawback for some users.",
+   "Durability": "Durability has not been extensively discussed in the reviews, but some users have mentioned that the phone's build quality and construction give them confidence in its ability to withstand daily wear and tear.",
+   "pros": [
+      "Smooth and fluid software experience",
+      "Unique design",
+      "Fast charging capabilities",
+      "Long-lasting battery",
+      "Bright and vibrant display",
+      "Premium feel and build quality",
+      "Feature-packed software"
+   ],
+   "cons": [
+      "Camera performance is average",
+      "No charger included",
+      "Limited availability of storage options",
+      "May struggle with heavy gaming",
+      "Some users have noted inconsistent image quality"
+   ]
+}
+2024-09-28 10:28:20,947 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.17.211.214:8000
+2024-09-28 10:28:20,947 - INFO - [33mPress CTRL+C to quit[0m
+2024-09-28 10:37:59,859 - INFO - Starting the application...
+2024-09-28 10:37:59,859 - INFO - ====== WebDriver manager ======
+2024-09-28 10:38:02,191 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 10:38:02,310 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 10:38:02,444 - INFO - Driver [C:\Users\omaan\.wdm\drivers\chromedriver\win64\129.0.6668.70\chromedriver-win32/chromedriver.exe] found in cache
+2024-09-28 10:38:22,624 - INFO - Retrying request to /openai/v1/chat/completions in 0.852391 seconds
+2024-09-28 10:38:30,213 - INFO - Retrying request to /openai/v1/chat/completions in 1.989155 seconds
+2024-09-28 10:38:41,275 - INFO - Retrying request to /openai/v1/chat/completions in 0.882737 seconds
+2024-09-28 10:39:25,254 - INFO - Starting the application...
+2024-09-28 10:39:25,254 - INFO - ====== WebDriver manager ======
+2024-09-28 10:39:27,536 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 10:39:27,646 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 10:39:27,779 - INFO - Driver [C:\Users\omaan\.wdm\drivers\chromedriver\win64\129.0.6668.70\chromedriver-win32/chromedriver.exe] found in cache
+2024-09-28 10:43:53,576 - INFO - Starting the application...
+2024-09-28 10:44:07,104 - INFO - Starting the application...
+2024-09-28 10:44:16,412 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-28 10:44:16,432 - INFO - {
+   "Performance":"Most reviewers have praised the phone's performance, citing its smooth and responsive interface, as well as its ability to handle multitasking and gaming well. Some users have noted that the phone can handle heavy gaming and demanding tasks without significant lag. However, a few users have mentioned that the phone can get warm during extended use, especially when the 120Hz refresh rate is enabled. Overall, the majority of users are satisfied with the phone's performance.",
+   "Camera Quality":"The camera quality of the phone has received mixed reviews. Many users have praised the phone's camera, stating that it captures clear and vibrant photos, especially in well-lit conditions. However, some users have noted that the camera performance can be inconsistent, with issues such as saturated colors and poor low-light performance. Others have mentioned that the camera is not on par with flagship-level devices, but still decent for a mid-range phone.",
+   "Battery Life":"Most users have praised the phone's battery life, stating that it can last for two days with moderate use. Some users have noted that the battery can drain quickly during extended gaming sessions, but overall, the majority of users are satisfied with the phone's battery life.",
+   "Display":"The phone's display has received overwhelmingly positive reviews. Users have praised the display's brightness, vibrancy, and responsiveness, making it ideal for media consumption. Some users have mentioned that the display is one of the phone's standout features.",
+   "Build Quality":"The phone's build quality has received mixed reviews. Some users have praised the phone's premium feel and sturdy design, while others have mentioned that the build quality is not up to par, with some users reporting that the phone feels cheap or fragile. However, most users agree that the phone's design is unique and visually appealing.",
+   "Value for Money":"The majority of users believe that the phone offers good value for money. Users have praised the phone's features, performance, and design, stating that it is a great option for those looking for a mid-range phone. However, some users have mentioned that the phone's price could be lower, and that there may be better options available in the market.",
+   "Durability":"The phone's durability has received limited reviews. Some users have mentioned that the phone's build quality is not up to par, and that it may not withstand rough handling. However, no significant issues with the phone's durability have been reported.",
+   "pros":[
+      "Smooth and responsive performance",
+      "Unique and visually appealing design",
+      "Good battery life",
+      "Bright and vibrant display",
+      "Decent camera performance",
+      "Clean and minimalistic UI",
+      "Fast charging support"
+   ],
+   "cons":[
+      "Inconsistent camera performance",
+      "No charger included in the box",
+      "Build quality issues",
+      "Phone can get warm during extended use",
+      "Low-light performance issues"
+   ]
+}
+2024-09-28 10:44:16,449 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.17.211.214:8000
+2024-09-28 10:44:16,449 - INFO - [33mPress CTRL+C to quit[0m
+2024-09-28 10:46:46,892 - INFO - Starting the application...
+2024-09-28 10:46:50,293 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-28 10:46:50,293 - INFO - {
+   "Performance" : "The majority of reviews indicate that the phone's performance is good, but there are some areas that require improvement. Many reviewers praise the phone's ability to handle heavy tasks, gaming, and providing a smooth user experience. However, some users have noted that the phone occasionally lags when opening and loading apps, and that the 120Hz refresh rate implementation can be better. Overall, the phone's performance is satisfactory but not groundbreaking.",
+   
+   "Camera Quality" : "The general consensus is that the camera quality is good but not great. Many reviewers praise the phone's ability to capture clear and vibrant photos, but note that the image quality is not consistent, with muted colors and poor edge detection in portrait mode. Some reviewers have noted that the ultra-wide camera is very good for its price range. Overall, the camera quality is a mixed bag, but it is suitable for casual photography.",
+   
+   "Battery Life" : "Most reviewers agree that the battery life is good, with many users getting a full day's use on a single charge. Some reviewers have noted that the battery life is excellent, with moderate usage lasting for two days. Overall, the battery life is a strong point of the phone.",
+   
+   "Display" : "The majority of reviews indicate that the display is excellent, with many users praising its responsiveness, brightness, and vibrancy. Some reviewers have noted that the display is perfect for gaming and watching videos. Overall, the display is a strong point of the phone.",
+   
+   "Build Quality" : "There is a mixed opinion about the build quality, with some reviewers praising the phone's premium feel and design, while others have noted that the build quality is very bad. Some reviewers have also noted that the weight of the phone is evenly distributed, making it comfortable to use. Overall, the build quality is a mixed bag, but the design is generally praised.",
+   
+   "Value for Money" : "Most reviewers agree that the phone offers good value for money, with many users praising its smooth user experience, good battery life, and excellent display. However, some reviewers have noted that the charger is not included, which is a drawback. Overall, the phone offers good value for money, but there are some minor drawbacks.",
+   
+   "Durability" : "There is limited information about the phone's durability. However, some reviewers have noted that the phone has been working fine for them even after a month of use. Overall, the phone's durability is uncertain, but it appears to be durable so far.",
+   
+   "pros" : [
+      "Good battery life",
+      "Excellent display",
+      "Smooth user experience",
+      "Unique design",
+      "Good value for money"
+   ],
+   
+   "cons" : [
+      "Camera quality is not great",
+      "No charger included",
+      "Some users have noted that the build quality is very bad",
+      "Phone can get warm, especially when using the 120Hz refresh rate and full brightness"
+   ]
+}
+2024-09-28 10:46:50,309 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.17.211.214:8000
+2024-09-28 10:46:50,309 - INFO - [33mPress CTRL+C to quit[0m
+2024-09-28 10:47:15,823 - INFO - Starting the application...
+2024-09-28 10:47:19,600 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-28 10:47:19,616 - INFO - {
+   "Performance" : "Performance of the phone is generally good, with many reviewers commenting on its smooth and fluid experience. However, a few users have noted that the phone can take time to open and load apps, and the 120Hz implementation could be improved. Additionally, there are some minor issues with the UI stability after a recent update. Nevertheless, the phone handles heavy gaming well, with only occasional lag, and its touch response is impressive.",
+   "Camera Quality" : "Opinions about the camera quality are somewhat divided. While many reviewers praise the camera's performance, noting that it captures clear and vibrant photos, and is particularly good for its range, others are less satisfied. Some users have noted issues with image quality consistency, saturated colors, and edge detection in portrait mode. However, the ultra-wide camera has been praised for its quality.",
+   "Battery Life" : "Battery life is generally considered good, with many reviewers noting that it easily lasts for two days with average use. Even with heavy gaming, the battery life is reported to be satisfactory, with only a few users commenting on excessive battery drain.",
+   "Display" : "The display is widely praised for its quality, responsiveness, and brightness. Many reviewers have noted that it is one of the phone's standout features, and some have even given it a perfect score.",
+   "Build Quality" : "Unfortunately, build quality is one area where the phone falls short, according to some reviewers. Some users have noted that the build quality is bad, with one reviewer giving it a score of 2.5/5.",
+   "Value for Money" : "Most reviewers believe that the phone offers excellent value for money, praising its performance, display, and battery life, among other features. While there are a few drawbacks, the phone is generally considered a compelling choice at its price point.",
+   "Durability" : null,
+   "pros" : [
+      "Smooth and fluid interface",
+      "Unique design",
+      "Good display quality",
+      "Good battery life",
+      "Good performance",
+      "Good value for money"
+   ],
+   "cons" : [
+      "No charger included",
+      "Bad build quality",
+      "Camera quality can be inconsistent",
+      "No significant improvements to camera performance in low-light conditions",
+      "Minor issues with UI stability after update"
+   ]
+}
+2024-09-28 10:47:19,626 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.17.211.214:8000
+2024-09-28 10:47:19,626 - INFO - [33mPress CTRL+C to quit[0m
+2024-09-28 10:47:25,191 - INFO - Starting the application...
+2024-09-28 10:47:41,557 - INFO - Starting the application...
+2024-09-28 10:47:43,874 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-28 10:47:43,874 - INFO - {
+   "Performance": "The phone's performance is considered good by most users, with a smooth and fluid software experience. However, some users mentioned that the 120Hz implementation could be improved, and there might be occasional lag when opening apps. Overall, the phone handles heavy gaming and tasks well.",
+   "Camera Quality": "The camera quality is generally considered good, with users praising the vibrant and clear photos. However, some users noted that the ultra-wide camera could be better, and the camera performance is not consistent in low-light conditions. The phone's camera is not flagship-level, but it's good enough for social media enthusiasts.",
+   "Battery Life": "The battery life is widely praised by users, with most getting at least two days of moderate usage. The battery does not drain too much, and users are generally happy with the battery performance.",
+   "Display": "The display is considered excellent by most users, with good brightness, vibrant colors, and a smooth touch response. The fingerprint sensor works well, and users are happy with the overall display performance.",
+   "Build Quality": "There are mixed opinions about the build quality. Some users praised the premium design and feel, while others felt that the build quality could be better. The charger not being included in the box is also a drawback for some users.",
+   "Value for Money": "Most users consider the phone to be value for money, with good performance, camera quality, and battery life at an affordable price point.",
+   "Durability": "There are limited comments on durability, but users generally seem to be happy with the phone's build quality and feel. However, the lack of a charger in the box might be a concern for some users.",
+   "pros": [
+      "Good performance",
+      "Vibrant and clear camera quality",
+      "Excellent battery life",
+      "Good display performance",
+      "Premium design and feel",
+      "Value for money"
+   ],
+   "cons": [
+      "Camera performance not consistent in low-light conditions",
+      "Build quality could be better",
+      "Charger not included in the box",
+      "120Hz implementation could be improved",
+      "Occasional lag when opening apps"
+   ]
+}
+2024-09-28 10:47:43,890 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.17.211.214:8000
+2024-09-28 10:47:43,890 - INFO - [33mPress CTRL+C to quit[0m
+2024-09-28 10:49:10,636 - INFO - Starting the application...
+2024-09-28 10:49:11,765 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-28 10:49:11,765 - INFO - {
+  "Performance": "None",
+  "Camera Quality": "Good",
+  "Battery Life": "Excellent",
+  "Display": "Good",
+  "Build Quality": "Mixed",
+  "Value for Money": "Mixed",
+  "Durability": "None",
+  "pros": [
+    "Excellent battery life",
+    "Good camera quality",
+    "Good display",
+    "Lightweight and smooth software",
+    "Good value for money (for some users)"
+  ],
+  "cons": [
+    "Performance issues (slow loading and opening of apps)",
+    "Questionable build quality",
+    "Charger not included",
+    "Mixed opinions on value for money (some users feel it's overpriced)"
+  ]
+}
+2024-09-28 10:49:11,785 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.17.211.214:8000
+2024-09-28 10:49:11,786 - INFO - [33mPress CTRL+C to quit[0m
+2024-09-28 10:51:51,167 - INFO - Starting the application...
+2024-09-28 10:51:52,245 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-28 10:51:52,245 - INFO - {
+  "Performance": "None",
+  "Camera Quality": "Positive",
+  "Battery Life": "Positive",
+  "Display": "Positive",
+  "Build Quality": "Positive",
+  "Value for Money": "Mixed",
+  "Durability": "None",
+  "pros": ["Good camera quality, Better than some high-end models like Motorola Edge 40", "Excellent battery life, reduces to 15% to 20% after 3 hours of continuous usage", "Good display", "Solid build quality", "Useful and fast software"],
+  "cons": ["Mid-range performance", "Value for money is subjective and may vary based on personal needs and budget"]
+}
+2024-09-28 10:51:52,372 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.17.211.214:8000
+2024-09-28 10:51:52,372 - INFO - [33mPress CTRL+C to quit[0m
+2024-09-28 10:51:52,388 - INFO -  * Restarting with stat
+2024-09-28 10:51:53,487 - INFO - Starting the application...
+2024-09-28 10:51:55,227 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-28 10:51:55,241 - INFO - {
+  "Performance": "None",
+  "Camera Quality": "The majority of reviews praise the camera quality of the product, with several users giving it a score of 4 out of 5. They note that the camera performs well in all settings and is better than some competitors in this range. However, there are no explicit mentions of any shortcomings or issues with the camera.",
+  "Battery Life": "Users have largely positive reviews of the battery life, noting that it is amazing and reduced by only 15-20% after 3 hours of continuous usage, which included settings, camera, and gaming. However, there are no explicit comparisons made to other phones in the same range.",
+  "Display": "The majority of reviews regarding the display are positive, with users praising its quality using terms such as 'dam.' and 'not bad,' suggesting that it is satisfactory. However, there is no detailed analysis or comparison made to other phones' displays in the same range.",
+  "Build Quality": "None",
+  "Value for Money": "None",
+  "Durability": "There are no explicit mentions of the product's durability in the reviews. While there are no negative mentions of the product's durability, there is no positive affirmation either.",
+  "pros": ["Good camera quality, excellent battery life, satisfactory display"],
+  "cons": ["No explicit mention of build quality or value for money, no explicit comparison with other phones in the range, no mentions of durability."]
+}
+2024-09-28 10:51:55,257 - WARNING -  * Debugger is active!
+2024-09-28 10:51:55,283 - INFO -  * Debugger PIN: 455-261-918
+2024-09-28 10:52:18,191 - INFO -  * Detected change in 'o:\\Programming\\Projects\\Lets-circle-back-to-this-later\\backend\\app.py', reloading
+2024-09-28 10:52:18,307 - INFO -  * Restarting with stat
+2024-09-28 10:52:19,390 - INFO - Starting the application...
+2024-09-28 10:52:20,714 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-28 10:52:20,743 - WARNING -  * Debugger is active!
+2024-09-28 10:52:20,745 - INFO -  * Debugger PIN: 455-261-918
+2024-09-28 10:52:26,439 - INFO - Starting the application...
+2024-09-28 10:52:27,824 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-28 10:52:27,862 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.17.211.214:8000
+2024-09-28 10:52:27,862 - INFO - [33mPress CTRL+C to quit[0m
+2024-09-28 10:52:27,862 - INFO -  * Restarting with stat
+2024-09-28 10:52:29,216 - INFO - Starting the application...
+2024-09-28 10:52:30,389 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-28 10:52:30,433 - WARNING -  * Debugger is active!
+2024-09-28 10:52:30,438 - INFO -  * Debugger PIN: 455-261-918
+2024-09-28 10:54:58,463 - INFO - Starting the application...
+2024-09-28 10:55:01,020 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-28 10:55:01,036 - INFO - {
+   "Performance": "The majority of customers are highly satisfied with the phone's performance. They praise its smooth and fluid experience, ability to handle heavy gaming, and fast charging capabilities. However, some users have noted minor issues with lag when using the 120Hz refresh rate and full brightness.",
+   "Camera Quality": "Opinions about the camera quality are mixed. While many users are impressed with the camera's performance, especially in well-lit conditions, others have noted that it could be better. Some users have mentioned issues with low-light photography and portrait mode.",
+   "Battery Life": "Battery life is a strong point for this phone. Many users have praised its long-lasting battery, with some mentioning that it easily lasts for two days with moderate use.",
+   "Display": "The display is another aspect of the phone that has received widespread acclaim. Users have praised its brightness, vibrancy, and responsiveness, making it ideal for media consumption.",
+   "Build Quality": "The build quality is a mixed bag. Some users have praised the phone's premium feel and sturdy build, while others have noted that it could be improved. The lack of a charger in the box has also been a point of contention.",
+   "Value for Money": "The majority of users believe that the phone offers excellent value for money. They praise its unique design, solid performance, and clean software experience, making it a compelling option in its price range.",
+   "Durability": "There are limited comments about the phone's durability, but many users have praised its sturdy build and premium feel, suggesting that it can withstand daily wear and tear.",
+   "Pros": [
+      "Unique design",
+      "Smooth performance",
+      "Excellent battery life",
+      "Vibrant display",
+      "Clean software experience",
+      "Good camera performance",
+      "Fast charging",
+      "Premium feel"
+   ],
+   "Cons": [
+      "No charger in the box",
+      "Camera performance could be better",
+      "Some users have noted minor lag issues",
+      "No UFS 3.0 storage",
+      "Pre-applied screen protector is fragile"
+   ]
+}
+2024-09-28 10:55:01,096 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.17.211.214:8000
+2024-09-28 10:55:01,096 - INFO - [33mPress CTRL+C to quit[0m
+2024-09-28 10:55:01,100 - INFO -  * Restarting with stat
+2024-09-28 10:55:01,926 - INFO - Starting the application...
+2024-09-28 10:55:04,174 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-28 10:55:04,190 - INFO - {
+   "Performance": "Customers are generally satisfied with the phone's performance, citing its smooth and responsive UI, ability to handle multitasking well, and decent gaming performance. However, some reviewers noted that it may not be the best choice for heavy gamers.",
+   "Camera Quality": "Opinions about the camera quality are mixed. Many reviewers praised its performance in well-lit conditions, but some noted that it struggles in low-light conditions and has inconsistent image quality. Others felt that it's decent but not exceptional.",
+   "Battery Life": "The majority of reviewers were pleased with the phone's battery life, stating that it lasts for a full day and sometimes even two days with moderate use. A few reviewers noted that it may not be the best choice for heavy users.",
+   "Display": "The display is widely praised for its brightness, vibrancy, and overall quality. Reviewers appreciated its excellent media consumption capabilities.",
+   "Build Quality": "Reviewers generally praised the phone's build quality, describing it as sturdy, premium, and well-made. However, one reviewer mentioned that the build quality could be improved.",
+   "Value for Money": "The majority of reviewers felt that the phone offers excellent value for its price, citing its unique design, solid performance, and decent camera quality. A few reviewers noted that it may not be the best choice for those seeking exceptional camera performance.",
+   "Durability": "There were no specific comments about the phone's durability, but the overall build quality and materials used suggest that it should be able to withstand regular use.",
+   "pros": [
+      "Smooth and responsive UI",
+      "Unique design",
+      "Solid performance",
+      "Decent camera quality",
+      "Long-lasting battery life",
+      "Excellent value for money"
+   ],
+   "cons": [
+      "Camera struggles in low-light conditions",
+      "No charger included in the box",
+      "Build quality could be improved",
+      "May not be the best choice for heavy gamers"
+   ]
+}
+2024-09-28 10:55:04,217 - WARNING -  * Debugger is active!
+2024-09-28 10:55:04,220 - INFO -  * Debugger PIN: 455-261-918
+2024-09-28 10:55:39,198 - INFO - Starting the application...
+2024-09-28 10:55:42,856 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-28 10:55:43,047 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.17.211.214:8000
+2024-09-28 10:55:43,047 - INFO - [33mPress CTRL+C to quit[0m
+2024-09-28 10:55:43,047 - INFO -  * Restarting with stat
+2024-09-28 10:55:43,876 - INFO - Starting the application...
+2024-09-28 10:55:48,315 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-28 10:55:48,350 - WARNING -  * Debugger is active!
+2024-09-28 10:55:48,352 - INFO -  * Debugger PIN: 455-261-918
+2024-09-28 10:56:24,640 - INFO -  * Detected change in 'o:\\Programming\\Projects\\Lets-circle-back-to-this-later\\backend\\app.py', reloading
+2024-09-28 10:56:24,804 - INFO -  * Restarting with stat
+2024-09-28 10:56:25,840 - INFO - Starting the application...
+2024-09-28 10:57:06,289 - INFO - ====== WebDriver manager ======
+2024-09-28 10:57:08,514 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 10:57:27,555 - INFO - ====== WebDriver manager ======
+2024-09-28 10:57:29,869 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 10:57:29,980 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 10:57:30,090 - INFO - Driver [C:\Users\omaan\.wdm\drivers\chromedriver\win64\129.0.6668.70\chromedriver-win32/chromedriver.exe] found in cache
+2024-09-28 10:57:47,843 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-28 10:57:47,851 - INFO - ====== WebDriver manager ======
+2024-09-28 10:57:50,086 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 10:57:50,184 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 10:57:50,286 - INFO - Driver [C:\Users\omaan\.wdm\drivers\chromedriver\win64\129.0.6668.70\chromedriver-win32/chromedriver.exe] found in cache
+2024-09-28 10:58:02,079 - INFO - ====== WebDriver manager ======
+2024-09-28 10:58:04,359 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 10:58:04,475 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 10:58:04,568 - INFO - Driver [C:\Users\omaan\.wdm\drivers\chromedriver\win64\129.0.6668.70\chromedriver-win32/chromedriver.exe] found in cache
+2024-09-28 10:58:12,179 - INFO - ====== WebDriver manager ======
+2024-09-28 10:58:14,405 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 10:58:14,507 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 10:58:14,616 - INFO - Driver [C:\Users\omaan\.wdm\drivers\chromedriver\win64\129.0.6668.70\chromedriver-win32/chromedriver.exe] found in cache
+2024-09-28 10:58:24,822 - INFO - ====== WebDriver manager ======
+2024-09-28 10:58:27,041 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 10:58:27,136 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 10:58:27,249 - INFO - Driver [C:\Users\omaan\.wdm\drivers\chromedriver\win64\129.0.6668.70\chromedriver-win32/chromedriver.exe] found in cache
+2024-09-28 10:58:41,947 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-28 10:58:45,285 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-28 10:58:49,379 - INFO - ====== WebDriver manager ======
+2024-09-28 10:58:51,729 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 10:58:51,832 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 10:58:51,935 - INFO - Driver [C:\Users\omaan\.wdm\drivers\chromedriver\win64\129.0.6668.70\chromedriver-win32/chromedriver.exe] found in cache
+2024-09-28 11:00:12,877 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-28 11:00:12,877 - INFO - ====== WebDriver manager ======
+2024-09-28 11:00:15,107 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 11:00:15,239 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 11:00:15,350 - INFO - Driver [C:\Users\omaan\.wdm\drivers\chromedriver\win64\129.0.6668.70\chromedriver-win32/chromedriver.exe] found in cache
+2024-09-28 11:00:28,170 - INFO - ====== WebDriver manager ======
+2024-09-28 11:00:30,415 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 11:00:30,520 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 11:00:30,632 - INFO - Driver [C:\Users\omaan\.wdm\drivers\chromedriver\win64\129.0.6668.70\chromedriver-win32/chromedriver.exe] found in cache
+2024-09-28 11:00:38,398 - INFO - ====== WebDriver manager ======
+2024-09-28 11:00:40,516 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 11:00:40,621 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 11:00:40,715 - INFO - Driver [C:\Users\omaan\.wdm\drivers\chromedriver\win64\129.0.6668.70\chromedriver-win32/chromedriver.exe] found in cache
+2024-09-28 11:00:50,488 - INFO - ====== WebDriver manager ======
+2024-09-28 11:00:52,590 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 11:00:52,701 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 11:00:52,803 - INFO - Driver [C:\Users\omaan\.wdm\drivers\chromedriver\win64\129.0.6668.70\chromedriver-win32/chromedriver.exe] found in cache
+2024-09-28 11:01:08,814 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-28 11:01:11,840 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-28 11:02:46,868 - INFO - ====== WebDriver manager ======
+2024-09-28 11:02:49,054 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 11:02:49,177 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 11:02:49,286 - INFO - Driver [C:\Users\omaan\.wdm\drivers\chromedriver\win64\129.0.6668.70\chromedriver-win32/chromedriver.exe] found in cache
+2024-09-28 11:03:04,073 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-28 11:03:04,089 - INFO - ====== WebDriver manager ======
+2024-09-28 11:03:06,205 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 11:03:06,299 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 11:03:06,409 - INFO - Driver [C:\Users\omaan\.wdm\drivers\chromedriver\win64\129.0.6668.70\chromedriver-win32/chromedriver.exe] found in cache
+2024-09-28 11:03:19,113 - INFO - ====== WebDriver manager ======
+2024-09-28 11:03:21,261 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 11:03:21,374 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 11:03:21,477 - INFO - Driver [C:\Users\omaan\.wdm\drivers\chromedriver\win64\129.0.6668.70\chromedriver-win32/chromedriver.exe] found in cache
+2024-09-28 11:03:28,861 - INFO - ====== WebDriver manager ======
+2024-09-28 11:03:30,961 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 11:03:31,063 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 11:03:31,160 - INFO - Driver [C:\Users\omaan\.wdm\drivers\chromedriver\win64\129.0.6668.70\chromedriver-win32/chromedriver.exe] found in cache
+2024-09-28 11:03:41,147 - INFO - ====== WebDriver manager ======
+2024-09-28 11:03:43,328 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 11:03:43,421 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 11:03:43,533 - INFO - Driver [C:\Users\omaan\.wdm\drivers\chromedriver\win64\129.0.6668.70\chromedriver-win32/chromedriver.exe] found in cache
+2024-09-28 11:03:59,353 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-28 11:04:02,097 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-28 11:04:06,125 - INFO - ====== WebDriver manager ======
+2024-09-28 11:04:08,261 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 11:04:08,367 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 11:04:08,461 - INFO - Driver [C:\Users\omaan\.wdm\drivers\chromedriver\win64\129.0.6668.70\chromedriver-win32/chromedriver.exe] found in cache
+2024-09-28 11:04:29,744 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-28 11:04:29,744 - INFO - ====== WebDriver manager ======
+2024-09-28 11:04:31,904 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 11:04:32,012 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 11:04:32,120 - INFO - Driver [C:\Users\omaan\.wdm\drivers\chromedriver\win64\129.0.6668.70\chromedriver-win32/chromedriver.exe] found in cache
+2024-09-28 11:06:37,870 - INFO - ====== WebDriver manager ======
+2024-09-28 11:06:40,259 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 11:06:40,348 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 11:06:40,460 - INFO - Driver [C:\Users\omaan\.wdm\drivers\chromedriver\win64\129.0.6668.70\chromedriver-win32/chromedriver.exe] found in cache
+2024-09-28 11:06:55,619 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-28 11:06:55,632 - INFO - ====== WebDriver manager ======
+2024-09-28 11:06:57,788 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 11:06:57,886 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 11:06:57,987 - INFO - Driver [C:\Users\omaan\.wdm\drivers\chromedriver\win64\129.0.6668.70\chromedriver-win32/chromedriver.exe] found in cache
+2024-09-28 11:07:14,602 - INFO - ====== WebDriver manager ======
+2024-09-28 11:07:16,713 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 11:07:16,808 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 11:07:16,934 - INFO - Driver [C:\Users\omaan\.wdm\drivers\chromedriver\win64\129.0.6668.70\chromedriver-win32/chromedriver.exe] found in cache
+2024-09-28 11:07:24,223 - INFO - ====== WebDriver manager ======
+2024-09-28 11:07:26,356 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 11:07:26,466 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 11:07:26,575 - INFO - Driver [C:\Users\omaan\.wdm\drivers\chromedriver\win64\129.0.6668.70\chromedriver-win32/chromedriver.exe] found in cache
+2024-09-28 11:07:36,570 - INFO - ====== WebDriver manager ======
+2024-09-28 11:07:38,708 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 11:07:38,818 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 11:07:38,919 - INFO - Driver [C:\Users\omaan\.wdm\drivers\chromedriver\win64\129.0.6668.70\chromedriver-win32/chromedriver.exe] found in cache
+2024-09-28 11:07:53,905 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-28 11:09:36,682 - INFO - ====== WebDriver manager ======
+2024-09-28 11:09:38,969 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 11:09:39,078 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 11:09:39,175 - INFO - Driver [C:\Users\omaan\.wdm\drivers\chromedriver\win64\129.0.6668.70\chromedriver-win32/chromedriver.exe] found in cache
+2024-09-28 11:09:54,158 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-28 11:09:54,174 - INFO - ====== WebDriver manager ======
+2024-09-28 11:09:56,474 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 11:09:56,578 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 11:09:56,673 - INFO - Driver [C:\Users\omaan\.wdm\drivers\chromedriver\win64\129.0.6668.70\chromedriver-win32/chromedriver.exe] found in cache
+2024-09-28 11:10:09,386 - INFO - ====== WebDriver manager ======
+2024-09-28 11:10:11,549 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 11:10:11,657 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 11:10:11,751 - INFO - Driver [C:\Users\omaan\.wdm\drivers\chromedriver\win64\129.0.6668.70\chromedriver-win32/chromedriver.exe] found in cache
+2024-09-28 11:10:19,264 - INFO - ====== WebDriver manager ======
+2024-09-28 11:10:21,404 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 11:10:21,498 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 11:10:21,604 - INFO - Driver [C:\Users\omaan\.wdm\drivers\chromedriver\win64\129.0.6668.70\chromedriver-win32/chromedriver.exe] found in cache
+2024-09-28 11:10:31,770 - INFO - ====== WebDriver manager ======
+2024-09-28 11:10:34,092 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 11:10:34,203 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 11:10:34,306 - INFO - Driver [C:\Users\omaan\.wdm\drivers\chromedriver\win64\129.0.6668.70\chromedriver-win32/chromedriver.exe] found in cache
+2024-09-28 11:10:50,147 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-28 11:10:52,734 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-28 11:10:56,818 - INFO - ====== WebDriver manager ======
+2024-09-28 11:10:59,118 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 11:10:59,221 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 11:10:59,325 - INFO - Driver [C:\Users\omaan\.wdm\drivers\chromedriver\win64\129.0.6668.70\chromedriver-win32/chromedriver.exe] found in cache
+2024-09-28 11:11:22,136 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-28 11:11:22,136 - INFO - ====== WebDriver manager ======
+2024-09-28 11:11:24,423 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 11:11:24,519 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 11:11:24,615 - INFO - Driver [C:\Users\omaan\.wdm\drivers\chromedriver\win64\129.0.6668.70\chromedriver-win32/chromedriver.exe] found in cache
+2024-09-28 11:13:32,553 - INFO - ====== WebDriver manager ======
+2024-09-28 11:13:34,922 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 11:13:35,080 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 11:13:35,177 - INFO - Driver [C:\Users\omaan\.wdm\drivers\chromedriver\win64\129.0.6668.70\chromedriver-win32/chromedriver.exe] found in cache
+2024-09-28 11:13:50,229 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-28 11:13:50,232 - INFO - ====== WebDriver manager ======
+2024-09-28 11:13:52,487 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 11:13:52,581 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 11:13:52,692 - INFO - Driver [C:\Users\omaan\.wdm\drivers\chromedriver\win64\129.0.6668.70\chromedriver-win32/chromedriver.exe] found in cache
+2024-09-28 11:14:04,749 - INFO - ====== WebDriver manager ======
+2024-09-28 11:14:06,883 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 11:14:06,993 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 11:14:07,088 - INFO - Driver [C:\Users\omaan\.wdm\drivers\chromedriver\win64\129.0.6668.70\chromedriver-win32/chromedriver.exe] found in cache
+2024-09-28 11:14:14,819 - INFO - ====== WebDriver manager ======
+2024-09-28 11:14:16,960 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 11:14:17,057 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 11:14:17,154 - INFO - Driver [C:\Users\omaan\.wdm\drivers\chromedriver\win64\129.0.6668.70\chromedriver-win32/chromedriver.exe] found in cache
+2024-09-28 11:14:27,317 - INFO - ====== WebDriver manager ======
+2024-09-28 11:14:29,524 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 11:14:29,614 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 11:14:29,725 - INFO - Driver [C:\Users\omaan\.wdm\drivers\chromedriver\win64\129.0.6668.70\chromedriver-win32/chromedriver.exe] found in cache
+2024-09-28 11:14:44,873 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-28 11:14:47,310 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-28 11:14:51,936 - INFO - ====== WebDriver manager ======
+2024-09-28 11:14:54,053 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 11:14:54,147 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 11:14:54,242 - INFO - Driver [C:\Users\omaan\.wdm\drivers\chromedriver\win64\129.0.6668.70\chromedriver-win32/chromedriver.exe] found in cache
+2024-09-28 11:15:15,844 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-28 11:15:16,431 - INFO - ====== WebDriver manager ======
+2024-09-28 11:15:18,609 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 11:15:18,705 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 11:15:18,799 - INFO - Driver [C:\Users\omaan\.wdm\drivers\chromedriver\win64\129.0.6668.70\chromedriver-win32/chromedriver.exe] found in cache
+2024-09-28 11:15:31,342 - INFO - ====== WebDriver manager ======
+2024-09-28 11:15:33,479 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 11:15:33,573 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 11:15:33,669 - INFO - Driver [C:\Users\omaan\.wdm\drivers\chromedriver\win64\129.0.6668.70\chromedriver-win32/chromedriver.exe] found in cache
+2024-09-28 11:15:37,703 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-28 11:15:40,028 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-28 11:15:44,153 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.17.211.214:8000
+2024-09-28 11:15:44,153 - INFO - [33mPress CTRL+C to quit[0m
+2024-09-28 11:15:44,170 - INFO -  * Restarting with stat
+2024-09-28 11:15:44,957 - INFO - ====== WebDriver manager ======
+2024-09-28 11:15:47,182 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 11:15:47,293 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 11:15:47,413 - INFO - Driver [C:\Users\omaan\.wdm\drivers\chromedriver\win64\129.0.6668.70\chromedriver-win32/chromedriver.exe] found in cache
+2024-09-28 11:16:02,544 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-28 11:16:02,544 - INFO - ====== WebDriver manager ======
+2024-09-28 11:16:04,729 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 11:16:04,825 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 11:16:04,934 - INFO - Driver [C:\Users\omaan\.wdm\drivers\chromedriver\win64\129.0.6668.70\chromedriver-win32/chromedriver.exe] found in cache
+2024-09-28 11:16:16,939 - INFO - ====== WebDriver manager ======
+2024-09-28 11:16:18,994 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 11:16:19,091 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 11:16:19,185 - INFO - Driver [C:\Users\omaan\.wdm\drivers\chromedriver\win64\129.0.6668.70\chromedriver-win32/chromedriver.exe] found in cache
+2024-09-28 11:16:26,554 - INFO - ====== WebDriver manager ======
+2024-09-28 11:16:28,738 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 11:16:28,848 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 11:16:28,943 - INFO - Driver [C:\Users\omaan\.wdm\drivers\chromedriver\win64\129.0.6668.70\chromedriver-win32/chromedriver.exe] found in cache
+2024-09-28 11:16:38,977 - INFO - ====== WebDriver manager ======
+2024-09-28 11:16:41,103 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 11:16:41,197 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 11:16:41,306 - INFO - Driver [C:\Users\omaan\.wdm\drivers\chromedriver\win64\129.0.6668.70\chromedriver-win32/chromedriver.exe] found in cache
+2024-09-28 11:16:57,378 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-28 11:16:59,428 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-28 11:17:03,494 - INFO - ====== WebDriver manager ======
+2024-09-28 11:17:05,583 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 11:17:05,684 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 11:17:05,789 - INFO - Driver [C:\Users\omaan\.wdm\drivers\chromedriver\win64\129.0.6668.70\chromedriver-win32/chromedriver.exe] found in cache
+2024-09-28 11:18:24,390 - INFO - ====== WebDriver manager ======
+2024-09-28 11:18:26,701 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 11:18:26,807 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 11:18:26,922 - INFO - Driver [C:\Users\omaan\.wdm\drivers\chromedriver\win64\129.0.6668.70\chromedriver-win32/chromedriver.exe] found in cache
+2024-09-28 11:18:42,141 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-28 11:18:42,157 - INFO - ====== WebDriver manager ======
+2024-09-28 11:18:44,450 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 11:18:44,545 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 11:18:44,654 - INFO - Driver [C:\Users\omaan\.wdm\drivers\chromedriver\win64\129.0.6668.70\chromedriver-win32/chromedriver.exe] found in cache
+2024-09-28 11:18:57,024 - INFO - ====== WebDriver manager ======
+2024-09-28 11:18:59,273 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 11:18:59,369 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 11:18:59,481 - INFO - Driver [C:\Users\omaan\.wdm\drivers\chromedriver\win64\129.0.6668.70\chromedriver-win32/chromedriver.exe] found in cache
+2024-09-28 11:19:07,136 - INFO - ====== WebDriver manager ======
+2024-09-28 11:19:09,395 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 11:19:09,507 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 11:19:09,604 - INFO - Driver [C:\Users\omaan\.wdm\drivers\chromedriver\win64\129.0.6668.70\chromedriver-win32/chromedriver.exe] found in cache
+2024-09-28 11:19:19,991 - INFO - ====== WebDriver manager ======
+2024-09-28 11:19:22,199 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 11:19:22,293 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 11:19:22,404 - INFO - Driver [C:\Users\omaan\.wdm\drivers\chromedriver\win64\129.0.6668.70\chromedriver-win32/chromedriver.exe] found in cache
+2024-09-28 11:19:41,100 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-28 11:19:43,569 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-28 11:19:47,796 - INFO - ====== WebDriver manager ======
+2024-09-28 11:19:50,104 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 11:19:50,204 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 11:19:50,298 - INFO - Driver [C:\Users\omaan\.wdm\drivers\chromedriver\win64\129.0.6668.70\chromedriver-win32/chromedriver.exe] found in cache
+2024-09-28 11:21:08,876 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-28 11:21:08,878 - INFO - ====== WebDriver manager ======
+2024-09-28 11:21:11,063 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 11:21:11,192 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 11:21:11,298 - INFO - Driver [C:\Users\omaan\.wdm\drivers\chromedriver\win64\129.0.6668.70\chromedriver-win32/chromedriver.exe] found in cache
+2024-09-28 11:21:24,856 - INFO - ====== WebDriver manager ======
+2024-09-28 11:21:27,106 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 11:21:27,195 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-28 11:21:27,298 - INFO - Driver [C:\Users\omaan\.wdm\drivers\chromedriver\win64\129.0.6668.70\chromedriver-win32/chromedriver.exe] found in cache
+2024-09-28 11:21:32,742 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-28 11:21:37,501 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-28 11:21:41,631 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.17.211.214:8000
+2024-09-28 11:21:41,631 - INFO - [33mPress CTRL+C to quit[0m
+2024-09-28 11:29:05,260 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.17.211.214:8000
+2024-09-28 11:29:05,260 - INFO - [33mPress CTRL+C to quit[0m
+2024-09-28 11:29:13,180 - INFO - 127.0.0.1 - - [28/Sep/2024 11:29:13] "POST /testing HTTP/1.1" 200 -
+2024-09-28 11:31:05,724 - INFO - 127.0.0.1 - - [28/Sep/2024 11:31:05] "[33mPOST /review HTTP/1.1[0m" 404 -

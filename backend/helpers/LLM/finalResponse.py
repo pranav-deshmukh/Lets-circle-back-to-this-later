@@ -9,6 +9,7 @@ def finalResponse(product: object):
     output: list of review objects with category as key and reviews as value
     """
     category = classify(product)
+    print("classified")
     # category = "washing machine"
     print(category)
     parametersAll = {

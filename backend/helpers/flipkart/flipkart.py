@@ -47,7 +47,7 @@ def getFlipkartReviews(url):
     driver.quit()
     return all_reviews_list
 
-def getFlipkartDetails(url, pages=3):
+def getFlipkartDetails(url, pages=2):
 
     chrome_option = Options()
     chrome_option.add_argument("--disable-popup-blocking")
