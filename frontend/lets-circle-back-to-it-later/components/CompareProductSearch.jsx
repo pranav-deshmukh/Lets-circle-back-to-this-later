@@ -5,24 +5,27 @@ import { usePathname, useRouter } from "next/navigation";
 import { Input } from "./ui/input"; 
 import { Button } from "./ui/button";
 
-function CompareProductSearch() {
+function CompareProductSearch({ setUrl }) {  
   const [url1, setUrl1] = useState(""); 
   const [url2, setUrl2] = useState(""); 
   const pathname = usePathname();
-  const currProd = pathname.split('/')[2];
   const router = useRouter(); 
+
+  
   
   function handleClickReview() {
     if (url1) {
-      //either use a state management lib or pass props from parent that will be used to store the urls, they can't be passed as url params. Then we will access the urls using these props in the Comparison component to fetch the data.
-      router.push(`/review/${url1}`); 
-      console.log(pathname)
+      localStorage.setItem("url1",url1);
+      setUrl(url1);
+
+      router.push(`/review/prod1`); 
     }
   }
 
   function handleClickCompare() {
     if (url2) {
-      router.push(`/compare/${currProd}/${url2}`); 
+      localStorage.setItem("url2",url2)
+      router.push(`/compare/prod1/prod2`); 
     }
   }
 
@@ -39,13 +42,12 @@ function CompareProductSearch() {
           onChange={(e) => setUrl1(e.target.value)} 
         />
         <div className="flex justify-center">
-
-        <Button 
-          onClick={handleClickReview} 
-          className="mt-4 bg-black text-white px-4 py-2 rounded-full"
-        >
-          Search
-        </Button>
+          <Button 
+            onClick={handleClickReview} 
+            className="mt-4 bg-black text-white px-4 py-2 rounded-full"
+          >
+            Search
+          </Button>
         </div>
       </div>
 
@@ -62,13 +64,12 @@ function CompareProductSearch() {
           onChange={(e) => setUrl2(e.target.value)} 
         />
         <div className="flex justify-center">
-
-        <Button 
-          onClick={handleClickCompare} 
-          className="mt-4 bg-black text-white px-4 py-2 rounded-full"
-        >
-          Compare
-        </Button>
+          <Button 
+            onClick={handleClickCompare} 
+            className="mt-4 bg-black text-white px-4 py-2 rounded-full"
+          >
+            Compare
+          </Button>
         </div>
       </div>
     </div>

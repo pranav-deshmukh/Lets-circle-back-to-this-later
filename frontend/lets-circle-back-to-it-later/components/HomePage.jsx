@@ -25,12 +25,15 @@ function HomePage() {
 
   function handleClickReview() {
     if (url1) {
-      router.push(`review/${url1}`); 
+      localStorage.setItem("url1",url1);
+      router.push(`review/prod1`); 
     }
   }
   function handleCkickCompare() {
-    if (url1) {
-      router.push(`compare/${url1}/${url2}`); 
+    if (url1&&url2) {
+      localStorage.setItem("url1",url1);
+      localStorage.setItem("url2",url2);
+      router.push(`compare/prod1/prod2`); 
     }
   }
 
