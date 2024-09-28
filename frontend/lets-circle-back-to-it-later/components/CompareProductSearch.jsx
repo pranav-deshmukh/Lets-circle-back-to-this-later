@@ -30,7 +30,7 @@ function CompareProductSearch({ setUrl }) {
   }
 
   return (
-    <div className="w-full md:h-[250px] h-[500px] flex md:flex-row flex-col md:items-end items-center justify-evenly gap-10 border-b-[2px] border-black bg-[#cfd6e9]">
+    <div className="w-full md:h-[250px] h-[500px] flex md:flex-row flex-col md:items-end items-center justify-evenly gap-10 border-b-[2px] border-black bg-[#e9f5cd]">
       <div className="md:pb-6">
         <label htmlFor="Search Product" className="md:text-2xl">
           Search a New Product
